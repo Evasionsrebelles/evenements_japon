@@ -95,11 +95,13 @@
   }
 
   // Liens associés, normalisés en [{text, url}], quelle que soit la source.
+  // Les liens kanpai.fr ne sont volontairement pas exposés : seuls les liens
+  // JapanTravel (evt.url) sont affichés.
   function eventLinks(evt){
     if (evt.source === "japantravel"){
       return evt.url ? [{ text:"En savoir plus", url: evt.url }] : [];
     }
-    return evt.links || [];
+    return [];
   }
 
   function formatJtPrice(evt){
@@ -582,9 +584,6 @@
     lines.push("DTSTART;VALUE=DATE:" + dtstart);
     lines.push("DTEND;VALUE=DATE:" + dtend);
     lines.push(foldIcsLine("SUMMARY:" + escapeIcsText(evt.text)));
-    if (evt.links && evt.links.length && evt.links[0].url){
-      lines.push(foldIcsLine("URL:" + evt.links[0].url));
-    }
     lines.push("END:VEVENT");
   }
 
@@ -641,7 +640,7 @@
     var lines = [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Kanpai//Calendrier des evenements du Japon//FR",
+      "PRODID:-//Calendrier des evenements du Japon//FR",
       "CALSCALE:GREGORIAN",
       "METHOD:PUBLISH",
       "X-WR-CALNAME:Événements du Japon"
