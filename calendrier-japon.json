@@ -179,22 +179,7 @@
           "day": 16,
           "weekday_letter": "M",
           "date_iso": "2026-09-16",
-          "events": [
-            {
-              "text": "Keiro no Hi , le jour des Personnes Âgées au Japon ( férié )",
-              "links": [
-                {
-                  "text": "Keiro no Hi",
-                  "url": "https://www.kanpai.fr/societe-japonaise/keiro-no-hi"
-                },
-                {
-                  "text": "férié",
-                  "url": "https://www.kanpai.fr/societe-japonaise/jours-feries-japon"
-                }
-              ],
-              "type": "one-day"
-            }
-          ]
+          "events": []
         },
         {
           "day": 17,
@@ -234,6 +219,20 @@
                 }
               ],
               "type": "one-day"
+            },
+            {
+              "text": "Keiro no Hi , le jour des Personnes Âgées au Japon ( férié )",
+              "links": [
+                {
+                  "text": "Keiro no Hi",
+                  "url": "https://www.kanpai.fr/societe-japonaise/keiro-no-hi"
+                },
+                {
+                  "text": "férié",
+                  "url": "https://www.kanpai.fr/societe-japonaise/jours-feries-japon"
+                }
+              ],
+              "type": "one-day"
             }
           ]
         },
@@ -241,6 +240,12 @@
           "day": 22,
           "weekday_letter": "M",
           "date_iso": "2026-09-22",
+          "events": []
+        },
+        {
+          "day": 23,
+          "weekday_letter": "M",
+          "date_iso": "2026-09-23",
           "events": [
             {
               "text": "Shubun no Hi , jour de l'Équinoxe d'automne au Japon ( férié )",
@@ -257,12 +262,6 @@
               "type": "one-day"
             }
           ]
-        },
-        {
-          "day": 23,
-          "weekday_letter": "M",
-          "date_iso": "2026-09-23",
-          "events": []
         },
         {
           "day": 24,
@@ -3734,22 +3733,7 @@
           "day": 15,
           "weekday_letter": "M",
           "date_iso": "2027-09-15",
-          "events": [
-            {
-              "text": "Keiro no Hi , le jour des Personnes Âgées au Japon ( férié )",
-              "links": [
-                {
-                  "text": "Keiro no Hi",
-                  "url": "https://www.kanpai.fr/societe-japonaise/keiro-no-hi"
-                },
-                {
-                  "text": "férié",
-                  "url": "https://www.kanpai.fr/societe-japonaise/jours-feries-japon"
-                }
-              ],
-              "type": "one-day"
-            }
-          ]
+          "events": []
         },
         {
           "day": 16,
@@ -3779,7 +3763,22 @@
           "day": 20,
           "weekday_letter": "L",
           "date_iso": "2027-09-20",
-          "events": []
+          "events": [
+            {
+              "text": "Keiro no Hi , le jour des Personnes Âgées au Japon ( férié )",
+              "links": [
+                {
+                  "text": "Keiro no Hi",
+                  "url": "https://www.kanpai.fr/societe-japonaise/keiro-no-hi"
+                },
+                {
+                  "text": "férié",
+                  "url": "https://www.kanpai.fr/societe-japonaise/jours-feries-japon"
+                }
+              ],
+              "type": "one-day"
+            }
+          ]
         },
         {
           "day": 21,
@@ -3802,6 +3801,12 @@
           "day": 22,
           "weekday_letter": "M",
           "date_iso": "2027-09-22",
+          "events": []
+        },
+        {
+          "day": 23,
+          "weekday_letter": "J",
+          "date_iso": "2027-09-23",
           "events": [
             {
               "text": "Shubun no Hi , jour de l'Équinoxe d'automne au Japon ( férié )",
@@ -3818,12 +3823,6 @@
               "type": "one-day"
             }
           ]
-        },
-        {
-          "day": 23,
-          "weekday_letter": "J",
-          "date_iso": "2027-09-23",
-          "events": []
         },
         {
           "day": 24,
