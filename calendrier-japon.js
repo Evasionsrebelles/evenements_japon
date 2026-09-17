@@ -71,16 +71,17 @@
   // ---- CLASSIFICATION DES ÉVÉNEMENTS (FILTRES) -----------------------------
   // Un événement est soit { source:"kanpai", text, links, type, filtres, ... }
   // soit { source:"japantravel", title, event_date, event_general_price,
-  //        event_free, category, url, id, slug, lang }.
+  //        event_free, category, url, id, slug, lang, filtres, ... }.
   //
-  // Depuis le scraper, chaque événement kanpai porte un champ "filtres" :
-  // un tableau de 0 à N valeurs parmi "Jours fériés", "Festivals",
-  // "Jour spécial", "Anniversaire". Un même événement peut avoir plusieurs
-  // valeurs à la fois (ex: un festival qui tombe un jour férié).
+  // Depuis le scraper, chaque événement (kanpai ET japantravel) peut porter un
+  // champ "filtres" : un tableau de 0 à N valeurs parmi "Jours fériés",
+  // "Festivals", "Jour spécial", "Anniversaire", "Autres". Un même événement
+  // peut avoir plusieurs valeurs à la fois (ex: un festival qui tombe un jour
+  // férié).
   //
-  // Les événements JapanTravel ne sont pas encore classés dans ce système de
-  // Filtres (à venir) : ils restent visibles uniquement sous le filtre "Tous",
-  // avec leur propre catégorie affichée dans le tiroir de détail.
+  // Si un événement JapanTravel n'a pas (encore) de champ "filtres", il reste
+  // visible uniquement sous le filtre "Tous", avec sa propre catégorie
+  // JapanTravel affichée dans le tiroir de détail.
 
   var FILTRES = ["Jours fériés", "Festivals", "Jour spécial", "Anniversaire", "Autres"];
 
@@ -113,10 +114,17 @@
   }
 
   // Valeurs de Filtres qui s'appliquent à un événement, utilisées pour le
-  // matching avec les chips (state.filter). Retourne [] pour les événements
-  // JapanTravel : ils ne matchent donc aucun filtre nommé, seulement "Tous".
+  // matching avec les chips (state.filter).
+  //
+  // - Pour les événements JapanTravel : on utilise le champ "filtres" s'il est
+  //   renseigné (tableau non vide) ; sinon on renvoie [] pour que l'événement
+  //   ne matche aucun filtre nommé et ne reste visible que sous "Tous".
+  // - Pour les événements kanpai : comportement inchangé (champ "filtres" ou
+  //   classification historique en repli).
   function eventFiltreLabels(evt){
-    if (evt.source === "japantravel") return [];
+    if (evt.source === "japantravel"){
+      return Array.isArray(evt.filtres) && evt.filtres.length ? evt.filtres : [];
+    }
     if (Array.isArray(evt.filtres)){
       return evt.filtres.length ? evt.filtres : ["Autres"];
     }
@@ -124,11 +132,19 @@
   }
 
   // Étiquettes utilisées uniquement pour l'affichage (points de couleur,
-  // couleur de bordure dans le tiroir) : contrairement à eventFiltreLabels,
-  // inclut un pseudo-label "jt" pour les événements JapanTravel afin qu'ils
-  // restent visuellement identifiables même s'ils ne sont pas filtrables.
+  // couleur de bordure dans le tiroir).
+  //
+  // - Pour les événements JapanTravel qui ont des "filtres" définis : on
+  //   affiche les points correspondants (ex: tag-festival), comme pour les
+  //   événements kanpai.
+  // - Pour les événements JapanTravel sans "filtres" : on garde le pseudo-label
+  //   "jt" afin qu'ils restent visuellement identifiables même s'ils ne sont
+  //   pas filtrables.
   function eventDisplayKinds(evt){
-    if (evt.source === "japantravel") return ["jt"];
+    if (evt.source === "japantravel"){
+      var labels = eventFiltreLabels(evt);
+      return labels.length ? labels : ["jt"];
+    }
     return eventFiltreLabels(evt);
   }
 
