@@ -99,6 +99,38 @@
     return FILTRE_SLUGS[label] || "autre";
   }
 
+  // ---- GROUPES DE CALENDRIERS ICS ------------------------------------------
+  // Chaque groupe correspond à un choix du menu déroulant "Ajouter le flux
+  // d'événements...". "special" fusionne Jours fériés / Jour spécial /
+  // Anniversaire. "autres" correspond aux événements sans filtre nommé
+  // (JapanTravel sans champ "filtres", ou kanpai classé uniquement "Autres").
+  var ICS_GROUPS = [
+    { key: "all",       label: "Tous les événements",  calname: "Event Japon Evasions Rebelles",          filenameBase: "event-japon-evasions-rebelles" },
+    { key: "festivals", label: "Festivals",             calname: "Festival Japon Evasions Rebelles",       filenameBase: "festival-japon-evasions-rebelles" },
+    { key: "special",   label: "Jours spéciaux",        calname: "Jours spéciaux Japon Evasions Rebelles", filenameBase: "jours-speciaux-japon-evasions-rebelles" },
+    { key: "autres",    label: "Autres",                calname: "Autres Event Japon Evasions Rebelles",   filenameBase: "autres-event-japon-evasions-rebelles" }
+  ];
+
+  var SPECIAL_FILTRE_LABELS = ["Jours fériés", "Jour spécial", "Anniversaire"];
+
+  // Un événement appartient-il au groupe demandé (utilisé pour générer
+  // chaque .ics filtré, indépendamment de l'affichage/chips de l'app) ?
+  function eventMatchesGroup(evt, groupKey){
+    if (groupKey === "all") return true;
+    var labels = eventFiltreLabels(evt);
+    if (groupKey === "festivals"){
+      return labels.indexOf("Festivals") !== -1;
+    }
+    if (groupKey === "special"){
+      return SPECIAL_FILTRE_LABELS.some(function(l){ return labels.indexOf(l) !== -1; });
+    }
+    if (groupKey === "autres"){
+      // Aucun filtre "nommé" : reste éventuellement "Autres" ou vide (JapanTravel non classé).
+      return !labels.some(function(l){ return l === "Festivals" || SPECIAL_FILTRE_LABELS.indexOf(l) !== -1; });
+    }
+    return false;
+  }
+
   // Reprend la logique historique côté kanpai (repli utilisé uniquement si un
   // événement n'a pas encore de champ "filtres", ex: données scrapées avec une
   // version antérieure du scraper).
@@ -702,7 +734,7 @@
     lines.push("END:VEVENT");
   }
 
-  function buildIcsContent(){
+  function buildIcsContent(group){
     var now = new Date();
     var dtstamp = now.getUTCFullYear() + pad2(now.getUTCMonth()+1) + pad2(now.getUTCDate()) +
       "T" + pad2(now.getUTCHours()) + pad2(now.getUTCMinutes()) + pad2(now.getUTCSeconds()) + "Z";
@@ -713,12 +745,13 @@
       "PRODID:-//Calendrier des evenements du Japon//FR",
       "CALSCALE:GREGORIAN",
       "METHOD:PUBLISH",
-      "X-WR-CALNAME:Événements du Japon"
+      "X-WR-CALNAME:" + group.calname
     ];
 
     state.months.forEach(function(month){
       month.days.forEach(function(day){
         day.events.forEach(function(evt, i){
+          if (!eventMatchesGroup(evt, group.key)) return;
           if (evt.source === "japantravel"){
             appendJtVevent(lines, evt, dtstamp);
           } else {
@@ -732,14 +765,14 @@
     return lines.join("\r\n");
   }
 
-  function downloadIcsFile(){
+  function downloadIcsFile(group){
     if (!state.months.length) return;
-    var content = buildIcsContent();
+    var content = buildIcsContent(group);
     var blob = new Blob([content], { type: "text/calendar;charset=utf-8" });
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");
     a.href = url;
-    a.download = "calendrier-japon.ics";
+    a.download = group.filenameBase + ".ics";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -758,10 +791,93 @@
     els.icsModal.setAttribute("aria-hidden","true");
   }
 
-  els.icsBtn.addEventListener("click", function(){
-    downloadIcsFile();
-    openIcsModal();
+  // ---- MENU DÉROULANT ICS (4 choix : Tous / Festivals / Jours spéciaux / Autres) --
+  var icsMenuEl = null;
+
+  function injectIcsMenuStyles(){
+    if (document.getElementById("kjIcsMenuStyles")) return;
+    var style = document.createElement("style");
+    style.id = "kjIcsMenuStyles";
+    style.textContent =
+      ".kj-ics-menu-wrap{position:relative;display:inline-block;}" +
+      ".kj-ics-menu{position:absolute;top:calc(100% + 6px);left:0;min-width:230px;" +
+      "background:#fff;border:1px solid rgba(0,0,0,0.12);border-radius:10px;" +
+      "box-shadow:0 8px 24px rgba(0,0,0,0.16);padding:6px;z-index:60;display:none;}" +
+      ".kj-ics-menu.open{display:block;}" +
+      ".kj-ics-menu-item{display:block;width:100%;text-align:left;background:none;" +
+      "border:none;padding:9px 10px;font-size:14px;line-height:1.3;border-radius:6px;" +
+      "cursor:pointer;color:inherit;font-family:inherit;}" +
+      ".kj-ics-menu-item:hover,.kj-ics-menu-item:focus{background:rgba(0,0,0,0.06);outline:none;}";
+    document.head.appendChild(style);
+  }
+
+  function buildIcsMenu(){
+    var menu = document.createElement("div");
+    menu.className = "kj-ics-menu";
+    menu.setAttribute("role", "menu");
+    ICS_GROUPS.forEach(function(g){
+      var item = document.createElement("button");
+      item.type = "button";
+      item.className = "kj-ics-menu-item";
+      item.setAttribute("role", "menuitem");
+      item.dataset.icsGroup = g.key;
+      item.textContent = g.label;
+      item.addEventListener("click", function(ev){
+        ev.stopPropagation();
+        downloadIcsFile(g);
+        openIcsModal();
+        closeIcsMenu();
+      });
+      menu.appendChild(item);
+    });
+    return menu;
+  }
+
+  function openIcsMenu(){
+    if (!icsMenuEl || els.icsBtn.disabled) return;
+    icsMenuEl.classList.add("open");
+    els.icsBtn.setAttribute("aria-expanded", "true");
+  }
+
+  function closeIcsMenu(){
+    if (!icsMenuEl) return;
+    icsMenuEl.classList.remove("open");
+    els.icsBtn.setAttribute("aria-expanded", "false");
+  }
+
+  function toggleIcsMenu(){
+    if (!icsMenuEl) return;
+    if (icsMenuEl.classList.contains("open")) closeIcsMenu();
+    else openIcsMenu();
+  }
+
+  function initIcsMenu(){
+    injectIcsMenuStyles();
+    var parent = els.icsBtn.parentNode;
+    var wrap = document.createElement("span");
+    wrap.className = "kj-ics-menu-wrap";
+    parent.insertBefore(wrap, els.icsBtn);
+    wrap.appendChild(els.icsBtn);
+    icsMenuEl = buildIcsMenu();
+    wrap.appendChild(icsMenuEl);
+    els.icsBtn.setAttribute("aria-haspopup", "true");
+    els.icsBtn.setAttribute("aria-expanded", "false");
+  }
+
+  initIcsMenu();
+
+  els.icsBtn.addEventListener("click", function(ev){
+    ev.stopPropagation();
+    toggleIcsMenu();
   });
+
+  document.addEventListener("click", function(ev){
+    if (icsMenuEl && icsMenuEl.classList.contains("open") &&
+        !icsMenuEl.contains(ev.target) && ev.target !== els.icsBtn){
+      closeIcsMenu();
+    }
+  });
+
   els.icsModalClose.addEventListener("click", closeIcsModal);
   els.icsOverlay.addEventListener("click", closeIcsModal);
 
@@ -809,6 +925,7 @@
     if (ev.key === "Escape"){
       closeDrawer();
       closeIcsModal();
+      closeIcsMenu();
     }
   });
 
