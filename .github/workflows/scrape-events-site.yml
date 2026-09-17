@@ -1,0 +1,67 @@
+# ============================================================
+# Workflow GitHub Actions — scraping hebdomadaire du calendrier Japon
+#
+# Ce fichier doit être placé dans le dépôt à l'emplacement exact :
+#   .github/workflows/scrape-events.yml
+#
+# Ce que fait ce workflow :
+# 1. Se déclenche automatiquement chaque lundi à 9h00 (heure du Japon,
+#    JST = UTC+9, sans heure d'été), ou manuellement depuis l'onglet
+#    "Actions" de GitHub.
+# 2. Installe Python sur une machine virtuelle temporaire.
+# 3. Installe les dépendances du scraper (requests, beautifulsoup4).
+# 4. Exécute 00_calendar_scraper.py, qui régénère calendrier-japon.json
+#    et le publie DIRECTEMENT sur
+#    github.com/Evasionsrebelles/evenements_japon (branche main),
+#    via l'API GitHub Contents — pas besoin d'étape "git commit/push"
+#    séparée, le script s'en charge lui-même.
+# 5. Purge ensuite le cache jsDelivr du CSS/JS du calendrier (géré
+#    aussi en interne par le script).
+#
+# IMPORTANT — jeton GitHub :
+# Le script lit le jeton via la variable d'environnement GITHUB_TOKEN.
+# Pour que ce jeton (secret Actions ci-dessous : GH_PAT) soit
+# effectivement utilisé, la constante GITHUB_TOKEN_HARDCODED en haut
+# de 00_calendar_scraper.py doit être vide ("") dans le fichier commité
+# au dépôt. Ne jamais committer de vrai jeton en clair dans le script.
+# ============================================================
+
+name: Scraping hebdomadaire du calendrier Japon
+
+on:
+  # Déclenchement manuel : un bouton "Run workflow" apparaît
+  # dans l'onglet Actions du dépôt GitHub.
+  workflow_dispatch:
+
+  # Déclenchement planifié (syntaxe cron, toujours en UTC côté GitHub).
+  # 9h00 JST (UTC+9, le Japon n'a pas d'heure d'été) = 0h00 UTC.
+  # "0 0 * * 1" = tous les lundis à 00h00 UTC.
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : récupère le code du dépôt sur la machine virtuelle
+      - name: Récupération du dépôt
+        uses: actions/checkout@v4
+
+      # Étape 2 : installe Python
+      - name: Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Étape 3 : installe les dépendances du scraper
+      - name: Installation des dépendances
+        run: pip install requests beautifulsoup4
+
+      # Étape 4 : lance le scraper, qui régénère calendrier-japon.json
+      # et le publie directement sur le dépôt cible via l'API GitHub
+      # (voir la note en tête de fichier concernant GITHUB_TOKEN_HARDCODED).
+      - name: Exécution du scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: python3 00_calendar_scraper.py
