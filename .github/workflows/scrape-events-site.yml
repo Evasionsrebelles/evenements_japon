@@ -17,6 +17,14 @@
 #    séparée, le script s'en charge lui-même.
 # 5. Purge ensuite le cache jsDelivr du CSS/JS du calendrier (géré
 #    aussi en interne par le script).
+# 6. Envoie un mail de statut (succès ou échec) via Gmail SMTP, quel
+#    que soit le résultat des étapes précédentes.
+#
+# Secrets GitHub Actions requis pour le mail :
+#   MAIL_USERNAME : adresse Gmail complète (ex: toncompte@gmail.com)
+#   MAIL_PASSWORD : mot de passe d'application Gmail (16 caractères,
+#                   généré sur myaccount.google.com/apppasswords)
+#   MAIL_TO       : adresse qui recevra la notification de statut
 #
 # IMPORTANT — jeton GitHub :
 # Le script lit le jeton via la variable d'environnement GITHUB_TOKEN.
@@ -62,6 +70,34 @@ jobs:
       # et le publie directement sur le dépôt cible via l'API GitHub
       # (voir la note en tête de fichier concernant GITHUB_TOKEN_HARDCODED).
       - name: Exécution du scraper
+        id: scrape
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python3 00_calendar_scraper.py
+
+      # Étape 5 : envoie un mail de statut, que le scraping ait réussi
+      # ou échoué (if: always() = s'exécute quel que soit le résultat
+      # des étapes précédentes).
+      - name: Envoi du mail de statut
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: >-
+            [Calendrier Japon] Scraping
+            ${{ steps.scrape.outcome == 'success' && 'réussi ✅' || 'échoué ❌' }}
+            (${{ github.run_id }})
+          to: ${{ secrets.MAIL_TO }}
+          from: Calendrier Japon - GitHub Actions
+          body: |
+            Résultat de l'exécution : ${{ steps.scrape.outcome }}
+
+            Dépôt : ${{ github.repository }}
+            Workflow : ${{ github.workflow }}
+            Déclenché par : ${{ github.event_name }}
+
+            Détails complets du run :
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
