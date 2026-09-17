@@ -319,9 +319,12 @@
   margin-right:5px;
   flex:0 0 auto;
 }
+.kj-app .kj-tagdot + .kj-tagdot{ margin-left:-2px; }
 .kj-app .tag-ferie{ background:var(--shu); }
 .kj-app .tag-festival{ background:var(--take); }
-.kj-app .tag-autre{ background:var(--indigo-soft); }
+.kj-app .tag-special{ background:var(--indigo-soft); }
+.kj-app .tag-anniversaire{ background:var(--shu-soft); }
+.kj-app .tag-autre{ background:var(--ink-soft); }
 .kj-app .tag-jt{ background:var(--jt); }
 .kj-app .kj-more{ font-size:10px; color:var(--ink-soft); margin-top:auto; }
 
@@ -350,6 +353,7 @@
 .kj-app .kj-list-events{ flex:1; display:flex; flex-direction:column; gap:6px; }
 .kj-app .kj-list-events .evt{ font-size:13.5px; display:flex; gap:6px; align-items:flex-start; }
 .kj-app .kj-list-events .evt .txt{ color:var(--ink); }
+.kj-app .kj-list-events .evt .dots{ display:inline-flex; gap:3px; margin-top:6px; flex:0 0 auto; }
 .kj-app .kj-list-month-tag{
   font-size:11px; color:var(--ink-soft);
 }
@@ -421,6 +425,9 @@
 }
 .kj-event-card.ferie{ border-color:#BF3E28; }
 .kj-event-card.festival{ border-color:#59754C; }
+.kj-event-card.special{ border-color:#3C588A; }
+.kj-event-card.anniversaire{ border-color:#E3684F; }
+.kj-event-card.autre{ border-color:#5C5648; }
 .kj-event-card.jt{ border-color:#8A6D3B; }
 .kj-event-card .kind{
   font-size:11px;

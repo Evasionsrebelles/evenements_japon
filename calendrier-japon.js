@@ -5,7 +5,7 @@
   // Remplacez cette URL par le chemin vers votre propre calendrier-japon.json
   // si vous l'hébergez sur le même site (évite toute dépendance à GitHub).
   // Supporte nativement les deux formats produits par le scraper :
-  //  - payload.months (kanpai.fr, événements {text, links, type, ...})
+  //  - payload.months (kanpai.fr, événements {text, links, type, filtres, ...})
   //  - payload.japantravel_events (API JapanTravel, événements {title, event_date,
   //    event_general_price, event_free, category, url, ...}), présent tant que le
   //    scraper n'est PAS lancé avec --jt-merge.
@@ -68,25 +68,69 @@
     });
   }
 
-  // Un événement est soit { source:"kanpai", text, links, type, ... }
+  // ---- CLASSIFICATION DES ÉVÉNEMENTS (FILTRES) -----------------------------
+  // Un événement est soit { source:"kanpai", text, links, type, filtres, ... }
   // soit { source:"japantravel", title, event_date, event_general_price,
   //        event_free, category, url, id, slug, lang }.
-  function classifyEvent(evt){
-    if (evt.source === "japantravel") return "jt";
+  //
+  // Depuis le scraper, chaque événement kanpai porte un champ "filtres" :
+  // un tableau de 0 à N valeurs parmi "Jours fériés", "Festivals",
+  // "Jour spécial", "Anniversaire". Un même événement peut avoir plusieurs
+  // valeurs à la fois (ex: un festival qui tombe un jour férié).
+  //
+  // Les événements JapanTravel ne sont pas encore classés dans ce système de
+  // Filtres (à venir) : ils restent visibles uniquement sous le filtre "Tous",
+  // avec leur propre catégorie affichée dans le tiroir de détail.
+
+  var FILTRES = ["Jours fériés", "Festivals", "Jour spécial", "Anniversaire", "Autres"];
+
+  // Correspondance label -> suffixe de classe CSS (kj-tagdot tag-XXX / kj-event-card XXX)
+  var FILTRE_SLUGS = {
+    "Jours fériés": "ferie",
+    "Festivals": "festival",
+    "Jour spécial": "special",
+    "Anniversaire": "anniversaire",
+    "Autres": "autre",
+    "jt": "jt"
+  };
+
+  function filtreSlug(label){
+    return FILTRE_SLUGS[label] || "autre";
+  }
+
+  // Reprend la logique historique côté kanpai (repli utilisé uniquement si un
+  // événement n'a pas encore de champ "filtres", ex: données scrapées avec une
+  // version antérieure du scraper).
+  function legacyClassifyKanpai(evt){
     var t = evt.text || "";
     var isNonFerie = /non\s*féri/i.test(t);
     var isFerie = !isNonFerie && /féri/i.test(t);
-    if (isFerie) return "ferie";
-    if (evt.type === "multi-day") return "festival";
-    return "autre";
+    var out = [];
+    if (isFerie) out.push("Jours fériés");
+    if (evt.type === "multi-day") out.push("Festivals");
+    if (!out.length) out.push("Autres");
+    return out;
   }
 
-  var CLASS_LABEL = {
-    ferie:"Jour férié",
-    festival:"Festival / plusieurs jours",
-    autre:"Événement",
-    jt:"Événement JapanTravel"
-  };
+  // Valeurs de Filtres qui s'appliquent à un événement, utilisées pour le
+  // matching avec les chips (state.filter). Retourne [] pour les événements
+  // JapanTravel : ils ne matchent donc aucun filtre nommé, seulement "Tous".
+  function eventFiltreLabels(evt){
+    if (evt.source === "japantravel") return [];
+    if (Array.isArray(evt.filtres)){
+      return evt.filtres.length ? evt.filtres : ["Autres"];
+    }
+    return legacyClassifyKanpai(evt);
+  }
+
+  // Étiquettes utilisées uniquement pour l'affichage (points de couleur,
+  // couleur de bordure dans le tiroir) : contrairement à eventFiltreLabels,
+  // inclut un pseudo-label "jt" pour les événements JapanTravel afin qu'ils
+  // restent visuellement identifiables même s'ils ne sont pas filtrables.
+  function eventDisplayKinds(evt){
+    if (evt.source === "japantravel") return ["jt"];
+    return eventFiltreLabels(evt);
+  }
 
   // Texte affiché pour un événement, quelle que soit sa source.
   function eventDisplayText(evt){
@@ -147,16 +191,21 @@
     return "Du " + formatJtDate(start, false) + " au " + formatJtDate(end, false);
   }
 
-  function classifyEventDot(kind){ return kind; }
-
   function dayMatchesFilter(day){
     if (state.filter === "all") return day.events.length > 0;
-    return day.events.some(function(e){ return classifyEvent(e) === state.filter; });
+    return day.events.some(function(e){ return eventFiltreLabels(e).indexOf(state.filter) !== -1; });
   }
 
   function eventsForDayFiltered(day){
     if (state.filter === "all") return day.events;
-    return day.events.filter(function(e){ return classifyEvent(e) === state.filter; });
+    return day.events.filter(function(e){ return eventFiltreLabels(e).indexOf(state.filter) !== -1; });
+  }
+
+  // Rend les points de couleur (un par valeur de Filtres) devant un événement.
+  function renderTagDots(evt){
+    return eventDisplayKinds(evt).map(function(kind){
+      return '<span class="kj-tagdot tag-' + filtreSlug(kind) + '"></span>';
+    }).join("");
   }
 
   function parseLocalDate(iso){
@@ -363,8 +412,7 @@
 
       var inner = '<span class="num">' + day.day + "</span>";
       visibleEvents.slice(0,2).forEach(function(e){
-        var kind = classifyEvent(e);
-        inner += '<span class="ev-line"><span class="kj-tagdot tag-' + kind + '"></span>' + escapeHtml(eventDisplayText(e)) + "</span>";
+        inner += '<span class="ev-line">' + renderTagDots(e) + escapeHtml(eventDisplayText(e)) + "</span>";
       });
       if (visibleEvents.length > 2){
         inner += '<span class="kj-more">+ ' + (visibleEvents.length - 2) + " autre(s)</span>";
@@ -417,8 +465,7 @@
         "</div>" +
         '<div class="kj-list-events">' +
           eventsForDayFiltered(day).map(function(e){
-            var kind = classifyEvent(e);
-            return '<div class="evt"><span class="kj-tagdot tag-' + kind + '" style="margin-top:6px;"></span><span class="txt">' + escapeHtml(eventDisplayText(e)) + "</span></div>";
+            return '<div class="evt"><span class="dots">' + renderTagDots(e) + '</span><span class="txt">' + escapeHtml(eventDisplayText(e)) + "</span></div>";
           }).join("") +
         "</div>" +
       "</div>";
@@ -438,7 +485,7 @@
       month.days.forEach(function(day){
         var matches = day.events.filter(function(e){
           return eventDisplayText(e).toLowerCase().indexOf(q) !== -1 &&
-            (state.filter === "all" || classifyEvent(e) === state.filter);
+            (state.filter === "all" || eventFiltreLabels(e).indexOf(state.filter) !== -1);
         });
         if (matches.length){
           results.push({ month: month, day: day, events: matches });
@@ -469,8 +516,7 @@
         "</div>" +
         '<div class="kj-list-events">' +
           r.events.map(function(e){
-            var kind = classifyEvent(e);
-            return '<div class="evt"><span class="kj-tagdot tag-' + kind + '" style="margin-top:6px;"></span><span class="txt">' + escapeHtml(eventDisplayText(e)) + "</span></div>";
+            return '<div class="evt"><span class="dots">' + renderTagDots(e) + '</span><span class="txt">' + escapeHtml(eventDisplayText(e)) + "</span></div>";
           }).join("") +
         "</div>" +
       "</div>";
@@ -503,15 +549,23 @@
 
     var events = eventsForDayFiltered(day).length ? eventsForDayFiltered(day) : day.events;
     els.drawerBody.innerHTML = events.map(function(e){
-      var kind = classifyEvent(e);
-      var kindLabel = (kind === "jt" && e.category && e.category.name) ? e.category.name : CLASS_LABEL[kind];
+      var kinds = eventDisplayKinds(e);
+      var primarySlug = filtreSlug(kinds[0] || "autre");
+
+      var kindLabel;
+      if (e.source === "japantravel"){
+        kindLabel = (e.category && e.category.name) ? e.category.name : "Événement JapanTravel";
+      } else {
+        kindLabel = eventFiltreLabels(e).join(" · ");
+      }
+
       var linksArr = eventLinks(e);
       var links = linksArr.map(function(l){
         return '<a href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener">' + escapeHtml(l.text || l.url) + "</a>";
       }).join("");
 
       var metaLine = "";
-      if (kind === "jt"){
+      if (e.source === "japantravel"){
         var bits = [];
         var range = formatJtDateRange(e);
         if (range) bits.push(range);
@@ -522,7 +576,7 @@
         }
       }
 
-      return '<div class="kj-event-card ' + kind + '">' +
+      return '<div class="kj-event-card ' + primarySlug + '">' +
         '<div class="kind">' + escapeHtml(kindLabel) + "</div>" +
         '<div class="text">' + escapeHtml(eventDisplayText(e)) + "</div>" +
         metaLine +
