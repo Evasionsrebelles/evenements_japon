@@ -8,12 +8,6 @@
       "title": "Événements de septembre 2026 au Japon",
       "days": [
         {
-          "day": 17,
-          "weekday_letter": "J",
-          "date_iso": "2026-09-17",
-          "events": []
-        },
-        {
           "day": 18,
           "weekday_letter": "V",
           "date_iso": "2026-09-18",
@@ -1443,6 +1437,259 @@
           "day": 28,
           "weekday_letter": "D",
           "date_iso": "2027-02-28",
+          "events": []
+        }
+      ]
+    },
+    {
+      "url": "https://www.kanpai.fr/calendrier-japon/mars-2027",
+      "month_slug": "mars",
+      "year": 2027,
+      "title": "Événements de mars 2027 au Japon",
+      "days": [
+        {
+          "day": 1,
+          "weekday_letter": "L",
+          "date_iso": "2027-03-01",
+          "events": []
+        },
+        {
+          "day": 2,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-02",
+          "events": []
+        },
+        {
+          "day": 3,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-03",
+          "events": [
+            {
+              "text": "Hina Matsuri , le festival des petites filles au Japon (non férié)",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Festivals"
+              ]
+            },
+            {
+              "text": "Festival Daruma au temple Jindai-ji de Chofu",
+              "links": [],
+              "type": "multi-day",
+              "is_start": true,
+              "is_end": false,
+              "filtres": [
+                "Festivals"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "weekday_letter": "J",
+          "date_iso": "2027-03-04",
+          "events": [
+            {
+              "text": "Journée du Yen, la monnaie japonaise",
+              "links": [],
+              "type": "one-day",
+              "filtres": []
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "weekday_letter": "V",
+          "date_iso": "2027-03-05",
+          "events": []
+        },
+        {
+          "day": 6,
+          "weekday_letter": "S",
+          "date_iso": "2027-03-06",
+          "events": []
+        },
+        {
+          "day": 7,
+          "weekday_letter": "D",
+          "date_iso": "2027-03-07",
+          "events": []
+        },
+        {
+          "day": 8,
+          "weekday_letter": "L",
+          "date_iso": "2027-03-08",
+          "events": []
+        },
+        {
+          "day": 9,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-09",
+          "events": []
+        },
+        {
+          "day": 10,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-10",
+          "events": []
+        },
+        {
+          "day": 11,
+          "weekday_letter": "J",
+          "date_iso": "2027-03-11",
+          "events": [
+            {
+              "text": "Date anniversaire du séisme et tsunami du Tohoku (2011)",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Anniversaire"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "weekday_letter": "V",
+          "date_iso": "2027-03-12",
+          "events": []
+        },
+        {
+          "day": 13,
+          "weekday_letter": "S",
+          "date_iso": "2027-03-13",
+          "events": []
+        },
+        {
+          "day": 14,
+          "weekday_letter": "D",
+          "date_iso": "2027-03-14",
+          "events": [
+            {
+              "text": "White Day au Japon",
+              "links": [],
+              "type": "one-day",
+              "filtres": []
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "weekday_letter": "L",
+          "date_iso": "2027-03-15",
+          "events": []
+        },
+        {
+          "day": 16,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-16",
+          "events": []
+        },
+        {
+          "day": 17,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-17",
+          "events": []
+        },
+        {
+          "day": 18,
+          "weekday_letter": "J",
+          "date_iso": "2027-03-18",
+          "events": [
+            {
+              "text": "Kinryu no Mai : danse du dragon doré (15m) au temple Senso-ji à Asakusa",
+              "links": [],
+              "type": "one-day",
+              "filtres": []
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "weekday_letter": "V",
+          "date_iso": "2027-03-19",
+          "events": []
+        },
+        {
+          "day": 20,
+          "weekday_letter": "S",
+          "date_iso": "2027-03-20",
+          "events": []
+        },
+        {
+          "day": 21,
+          "weekday_letter": "D",
+          "date_iso": "2027-03-21",
+          "events": [
+            {
+              "text": "Shunbun no Hi, le jour de l'Équinoxe de Printemps au Japon (férié) et saison des sakura",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Jours fériés",
+                "Jour spécial"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "weekday_letter": "L",
+          "date_iso": "2027-03-22",
+          "events": []
+        },
+        {
+          "day": 23,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-23",
+          "events": []
+        },
+        {
+          "day": 24,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-24",
+          "events": []
+        },
+        {
+          "day": 25,
+          "weekday_letter": "J",
+          "date_iso": "2027-03-25",
+          "events": []
+        },
+        {
+          "day": 26,
+          "weekday_letter": "V",
+          "date_iso": "2027-03-26",
+          "events": []
+        },
+        {
+          "day": 27,
+          "weekday_letter": "S",
+          "date_iso": "2027-03-27",
+          "events": []
+        },
+        {
+          "day": 28,
+          "weekday_letter": "D",
+          "date_iso": "2027-03-28",
+          "events": []
+        },
+        {
+          "day": 29,
+          "weekday_letter": "L",
+          "date_iso": "2027-03-29",
+          "events": []
+        },
+        {
+          "day": 30,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-30",
+          "events": []
+        },
+        {
+          "day": 31,
+          "weekday_letter": "M",
+          "date_iso": "2027-03-31",
           "events": []
         }
       ]
@@ -7676,8 +7923,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-18 00:00:00",
-        "end": "2026-09-18 23:59:00",
+        "start": "2026-09-19 00:00:00",
+        "end": "2026-09-19 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7698,8 +7945,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-18 00:00:00",
-        "end": "2026-09-18 23:59:00",
+        "start": "2026-09-19 00:00:00",
+        "end": "2026-09-19 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9992,12 +10239,12 @@
     {
       "source": "japantravel",
       "id": 71901,
-      "title": "Katakai Festival 2026",
+      "title": "Katakai Festival 2027",
       "slug": "katakai-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-11 19:30:00",
-        "end": "2026-09-12 22:20:00",
+        "start": "2027-09-11 19:30:00",
+        "end": "2027-09-12 22:20:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
