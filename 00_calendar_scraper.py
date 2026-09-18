@@ -105,7 +105,7 @@ GITHUB_API_URL = "https://api.github.com"
 # fichier une fois rempli (ne le pousse pas sur un dépôt public/partagé), sous
 # peine que quiconque l'obtienne puisse écrire sur le dépôt à ta place.
 # Reste vide -> le script utilisera --github-token ou $GITHUB_TOKEN à la place.
-GITHUB_TOKEN_HARDCODED = "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"
+GITHUB_TOKEN_HARDCODED = ""
 
 
 def slugify(text: str) -> str:
@@ -1055,6 +1055,10 @@ def main():
                 )
             except Exception as exc:  # noqa: BLE001
                 print(f"  [GitHub] Échec de la publication : {exc}", file=sys.stderr)
+                # On fait échouer explicitement le script : sans ça, l'étape
+                # GitHub Actions se terminait en "succès" (le mail disait
+                # "réussi ✅") alors même que le JSON n'avait pas été publié.
+                sys.exit(1)
 
     if args.purge_jsdelivr:
         print("Purge du cache jsDelivr (CSS/JS du calendrier)...")
