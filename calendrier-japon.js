@@ -149,13 +149,13 @@
   // matching avec les chips (state.filter).
   //
   // - Pour les événements JapanTravel : on utilise le champ "filtres" s'il est
-  //   renseigné (tableau non vide) ; sinon on renvoie [] pour que l'événement
-  //   ne matche aucun filtre nommé et ne reste visible que sous "Tous".
+  //   renseigné (tableau non vide) ; sinon on classe l'événement sous "Autres",
+  //   comme pour kanpai (voir eventDisplayKinds pour la nuance d'affichage).
   // - Pour les événements kanpai : comportement inchangé (champ "filtres" ou
   //   classification historique en repli).
   function eventFiltreLabels(evt){
     if (evt.source === "japantravel"){
-      return Array.isArray(evt.filtres) && evt.filtres.length ? evt.filtres : [];
+      return Array.isArray(evt.filtres) && evt.filtres.length ? evt.filtres : ["Autres"];
     }
     if (Array.isArray(evt.filtres)){
       return evt.filtres.length ? evt.filtres : ["Autres"];
@@ -169,13 +169,13 @@
   // - Pour les événements JapanTravel qui ont des "filtres" définis : on
   //   affiche les points correspondants (ex: tag-festival), comme pour les
   //   événements kanpai.
-  // - Pour les événements JapanTravel sans "filtres" : on garde le pseudo-label
-  //   "jt" afin qu'ils restent visuellement identifiables même s'ils ne sont
-  //   pas filtrables.
+  // - Pour les événements JapanTravel sans "filtres" (repli "Autres") : on
+  //   garde le pseudo-label "jt" à l'affichage (point bleu distinctif), même
+  //   si l'événement est désormais bien filtrable sous la chip "Autres".
   function eventDisplayKinds(evt){
     if (evt.source === "japantravel"){
-      var labels = eventFiltreLabels(evt);
-      return labels.length ? labels : ["jt"];
+      var raw = Array.isArray(evt.filtres) && evt.filtres.length ? evt.filtres : null;
+      return raw || ["jt"];
     }
     return eventFiltreLabels(evt);
   }
