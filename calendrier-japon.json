@@ -8,24 +8,6 @@
       "title": "Événements de septembre 2026 au Japon",
       "days": [
         {
-          "day": 18,
-          "weekday_letter": "V",
-          "date_iso": "2026-09-18",
-          "events": []
-        },
-        {
-          "day": 19,
-          "weekday_letter": "S",
-          "date_iso": "2026-09-19",
-          "events": []
-        },
-        {
-          "day": 20,
-          "weekday_letter": "D",
-          "date_iso": "2026-09-20",
-          "events": []
-        },
-        {
           "day": 21,
           "weekday_letter": "L",
           "date_iso": "2026-09-21",
@@ -6320,6 +6302,52 @@
   "japantravel_events": [
     {
       "source": "japantravel",
+      "id": 72776,
+      "title": "Yokai Afternoon Tea 2026",
+      "slug": "yokai-afternoon-tea",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-01 12:00:00",
+        "end": "2026-11-01 23:59:00",
+        "unknown_start_time": false,
+        "unknown_end_time": true
+      },
+      "event_general_price": 7500,
+      "event_free": false,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/osaka/yokai-afternoon-tea/72776",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72774,
+      "title": "Hokuhoku! Yakiimo Matsuri NAGOYA 2027",
+      "slug": "hokuhoku-yakiimo-matsuri-nagoya",
+      "lang": "en",
+      "event_date": {
+        "start": "2027-01-09 10:00:00",
+        "end": "2027-01-11 17:00:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/aichi/hokuhoku-yakiimo-matsuri-nagoya/72774",
+      "filtres": [
+        "Festivals"
+      ]
+    },
+    {
+      "source": "japantravel",
       "id": 72773,
       "title": "WORLD SUPERCAR FESTIVAL 2026",
       "slug": "world-supercar-festival",
@@ -7923,8 +7951,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
-        "end": "2026-09-19 23:59:00",
+        "start": "2026-09-22 00:00:00",
+        "end": "2026-09-22 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7945,8 +7973,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
-        "end": "2026-09-19 23:59:00",
+        "start": "2026-09-22 00:00:00",
+        "end": "2026-09-22 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -10217,12 +10245,12 @@
     {
       "source": "japantravel",
       "id": 71905,
-      "title": "Sagamihara Yosakoi RANBU! 2026",
+      "title": "Sagamihara Yosakoi RANBU! 2027",
       "slug": "sagamihara-yosakoi-ranbu",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-20 10:10:00",
-        "end": "2026-09-20 16:00:00",
+        "start": "2027-09-20 10:10:00",
+        "end": "2027-09-20 16:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -10981,12 +11009,12 @@
     {
       "source": "japantravel",
       "id": 71774,
-      "title": "Glasses Festival 2026",
+      "title": "Glasses Festival 2027",
       "slug": "glasses-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -13437,12 +13465,12 @@
     {
       "source": "japantravel",
       "id": 70904,
-      "title": "Yamagata Imonikai Festival 2026",
+      "title": "Yamagata Imonikai Festival 2027",
       "slug": "yamagata-imonikai-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-20 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-09-20 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -17249,12 +17277,12 @@
     {
       "source": "japantravel",
       "id": 70095,
-      "title": "Echizen Fish Festival 2026",
+      "title": "Echizen Fish Festival 2027",
       "slug": "echizen-fish-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -18063,12 +18091,12 @@
     {
       "source": "japantravel",
       "id": 70008,
-      "title": "Shinagawa Summer Festival 2026",
+      "title": "Shinagawa Summer Festival 2027",
       "slug": "shinagawa-summer-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-19 00:00:00",
+        "start": "2027-09-01 00:00:00",
+        "end": "2027-09-19 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -21295,12 +21323,12 @@
     {
       "source": "japantravel",
       "id": 69253,
-      "title": "Wheat Festival 2026",
+      "title": "Wheat Festival 2027",
       "slug": "wheat-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-16 00:00:00",
-        "end": "2026-09-19 00:00:00",
+        "start": "2027-09-16 00:00:00",
+        "end": "2027-09-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -28933,12 +28961,12 @@
     {
       "source": "japantravel",
       "id": 63511,
-      "title": "Kyoto International Manga & Anime Fair 2026",
+      "title": "Kyoto International Manga & Anime Fair 2027",
       "slug": "kyoto-international-manga-anime-fair",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -31307,12 +31335,12 @@
     {
       "source": "japantravel",
       "id": 60043,
-      "title": "ULTRA JAPAN 2026",
+      "title": "ULTRA JAPAN 2027",
       "slug": "ultra-japan",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-18 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-09-18 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -40401,12 +40429,12 @@
     {
       "source": "japantravel",
       "id": 45400,
-      "title": "Lễ hội Yokohama Sparkling Twilight 2026",
+      "title": "Lễ hội Yokohama Sparkling Twilight 2027",
       "slug": "le-hoi-yokohama-sparkling-twilight",
       "lang": "vi",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-04-03 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58892,12 +58920,12 @@
     {
       "source": "japantravel",
       "id": 14258,
-      "title": "横浜スパークリングトワイライト 2026",
+      "title": "横浜スパークリングトワイライト 2027",
       "slug": "横浜スパークリングトワイライト",
       "lang": "ja",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-04-03 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58936,12 +58964,12 @@
     {
       "source": "japantravel",
       "id": 14231,
-      "title": "Yokohama Night Flowers 2026",
+      "title": "Yokohama Night Flowers 2027",
       "slug": "yokohama-night-flowers",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-20 00:00:00",
+        "start": "2027-04-03 00:00:00",
+        "end": "2027-09-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
