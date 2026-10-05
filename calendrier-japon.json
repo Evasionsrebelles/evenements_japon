@@ -2,105 +2,11 @@
   "source": "https://www.kanpai.fr/calendrier-japon",
   "months": [
     {
-      "url": "https://www.kanpai.fr/calendrier-japon/septembre-2026",
-      "month_slug": "septembre",
-      "year": 2026,
-      "title": "Événements de septembre 2026 au Japon",
-      "days": [
-        {
-          "day": 28,
-          "weekday_letter": "L",
-          "date_iso": "2026-09-28",
-          "events": []
-        },
-        {
-          "day": 29,
-          "weekday_letter": "M",
-          "date_iso": "2026-09-29",
-          "events": [
-            {
-              "text": "Jour du Maneki-neko , le chat porte-bonheur japonais (non férié)",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 30,
-          "weekday_letter": "M",
-          "date_iso": "2026-09-30",
-          "events": []
-        }
-      ]
-    },
-    {
       "url": "https://www.kanpai.fr/calendrier-japon/octobre-2026",
       "month_slug": "octobre",
       "year": 2026,
       "title": "Événements d'octobre 2026 au Japon",
       "days": [
-        {
-          "day": 1,
-          "weekday_letter": "J",
-          "date_iso": "2026-10-01",
-          "events": [
-            {
-              "text": "Date anniversaire de l'ouverture du Musée Ghibli (2001)",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Anniversaire"
-              ]
-            },
-            {
-              "text": "Jour des citoyens à Tokyo : certains musées, parcs et jardins sont gratuits",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "weekday_letter": "V",
-          "date_iso": "2026-10-02",
-          "events": [
-            {
-              "text": "Jour du tofu (10.2), non férié",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 3,
-          "weekday_letter": "S",
-          "date_iso": "2026-10-03",
-          "events": [
-            {
-              "text": "Jour du tourisme à Kobe : réductions et visites gratuites",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "weekday_letter": "D",
-          "date_iso": "2026-10-04",
-          "events": []
-        },
         {
           "day": 5,
           "weekday_letter": "L",
@@ -6226,10 +6132,382 @@
           "events": []
         }
       ]
+    },
+    {
+      "url": "https://www.kanpai.fr/calendrier-japon/septembre-2028",
+      "month_slug": "septembre",
+      "year": 2028,
+      "title": "Événements de septembre 2028 au Japon",
+      "days": [
+        {
+          "day": 1,
+          "weekday_letter": "V",
+          "date_iso": "2028-09-01",
+          "events": [
+            {
+              "text": "Journée de prévention des catastrophes naturelles au Japon",
+              "links": [],
+              "type": "one-day",
+              "filtres": []
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "weekday_letter": "S",
+          "date_iso": "2028-09-02",
+          "events": []
+        },
+        {
+          "day": 3,
+          "weekday_letter": "D",
+          "date_iso": "2028-09-03",
+          "events": [
+            {
+              "text": "Date anniversaire de la création de Tokyo , après la restauration Meiji de juillet 1868",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Anniversaire"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "weekday_letter": "L",
+          "date_iso": "2028-09-04",
+          "events": [
+            {
+              "text": "Date anniversaire de l'ouverture de Tokyo DisneySea (2001)",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Anniversaire"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-05",
+          "events": []
+        },
+        {
+          "day": 6,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-06",
+          "events": []
+        },
+        {
+          "day": 7,
+          "weekday_letter": "J",
+          "date_iso": "2028-09-07",
+          "events": []
+        },
+        {
+          "day": 8,
+          "weekday_letter": "V",
+          "date_iso": "2028-09-08",
+          "events": []
+        },
+        {
+          "day": 9,
+          "weekday_letter": "S",
+          "date_iso": "2028-09-09",
+          "events": [
+            {
+              "text": "So Odori matsuri à Niigata : grand festival de danse traditionnel de la côte de la mer du Japon",
+              "links": [],
+              "type": "multi-day",
+              "is_start": true,
+              "is_end": false,
+              "filtres": [
+                "Festivals"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "weekday_letter": "D",
+          "date_iso": "2028-09-10",
+          "events": [
+            {
+              "text": "Fin de saison pour l' ascension du Mont Fuji",
+              "links": [],
+              "type": "one-day",
+              "filtres": []
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "weekday_letter": "L",
+          "date_iso": "2028-09-11",
+          "events": []
+        },
+        {
+          "day": 12,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-12",
+          "events": []
+        },
+        {
+          "day": 13,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-13",
+          "events": []
+        },
+        {
+          "day": 14,
+          "weekday_letter": "J",
+          "date_iso": "2028-09-14",
+          "events": [
+            {
+              "text": "Festival Reitai-sai : yabusame au Tsurugaoka Hachimangu de Kamakura",
+              "links": [],
+              "type": "multi-day",
+              "is_start": true,
+              "is_end": false,
+              "filtres": [
+                "Festivals"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "weekday_letter": "V",
+          "date_iso": "2028-09-15",
+          "events": []
+        },
+        {
+          "day": 16,
+          "weekday_letter": "S",
+          "date_iso": "2028-09-16",
+          "events": []
+        },
+        {
+          "day": 17,
+          "weekday_letter": "D",
+          "date_iso": "2028-09-17",
+          "events": []
+        },
+        {
+          "day": 18,
+          "weekday_letter": "L",
+          "date_iso": "2028-09-18",
+          "events": [
+            {
+              "text": "Keiro no Hi , le jour des Personnes Âgées au Japon ( férié )",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Jours fériés",
+                "Jour spécial"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-19",
+          "events": []
+        },
+        {
+          "day": 20,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-20",
+          "events": []
+        },
+        {
+          "day": 21,
+          "weekday_letter": "J",
+          "date_iso": "2028-09-21",
+          "events": [
+            {
+              "text": "Début de l' automne au Japon",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Jour spécial"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "weekday_letter": "V",
+          "date_iso": "2028-09-22",
+          "events": [
+            {
+              "text": "Shubun no Hi , jour de l'Équinoxe d'automne au Japon ( férié )",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Jours fériés",
+                "Jour spécial"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "weekday_letter": "S",
+          "date_iso": "2028-09-23",
+          "events": []
+        },
+        {
+          "day": 24,
+          "weekday_letter": "D",
+          "date_iso": "2028-09-24",
+          "events": []
+        },
+        {
+          "day": 25,
+          "weekday_letter": "L",
+          "date_iso": "2028-09-25",
+          "events": []
+        },
+        {
+          "day": 26,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-26",
+          "events": []
+        },
+        {
+          "day": 27,
+          "weekday_letter": "M",
+          "date_iso": "2028-09-27",
+          "events": []
+        },
+        {
+          "day": 28,
+          "weekday_letter": "J",
+          "date_iso": "2028-09-28",
+          "events": []
+        },
+        {
+          "day": 29,
+          "weekday_letter": "V",
+          "date_iso": "2028-09-29",
+          "events": [
+            {
+              "text": "Jour du Maneki-neko , le chat porte-bonheur japonais (non férié)",
+              "links": [],
+              "type": "one-day",
+              "filtres": [
+                "Jour spécial"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "weekday_letter": "S",
+          "date_iso": "2028-09-30",
+          "events": []
+        }
+      ]
     }
   ],
   "japantravel_source": "https://api.japantravel.com/api/articles",
   "japantravel_events": [
+    {
+      "source": "japantravel",
+      "id": 72788,
+      "title": "Kotogahama Bamboo Lantern Evening 2026",
+      "slug": "kotogahama-bamboo-lantern-evening",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-31 15:00:00",
+        "end": "2026-10-31 20:30:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/kochi/kotogahama-bamboo-lantern-evening/72788",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72787,
+      "title": "Rilakkuma Collaboration at At-Home Cafe 2026",
+      "slug": "rilakkuma-collaboration-at-at-home-cafe",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-01 00:00:00",
+        "end": "2026-10-31 23:59:00",
+        "unknown_start_time": true,
+        "unknown_end_time": true
+      },
+      "event_general_price": 2970,
+      "event_free": false,
+      "category": {
+        "id": 4,
+        "code": "food",
+        "name": "Food"
+      },
+      "url": "https://en.japantravel.com/tokyo/rilakkuma-collaboration-at-at-home-cafe/72787",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72786,
+      "title": "Atami Plum Garden Maple Festival 2026",
+      "slug": "atami-plum-garden-maple-festival",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-11-14 00:00:00",
+        "end": "2026-12-06 23:59:00",
+        "unknown_start_time": true,
+        "unknown_end_time": true
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/shizuoka/atami-plum-garden-maple-festival/72786",
+      "filtres": [
+        "Festivals"
+      ]
+    },
+    {
+      "source": "japantravel",
+      "id": 72784,
+      "title": "Kagawa Oktoberfest 2026",
+      "slug": "kagawa-oktoberfest",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-02 16:00:00",
+        "end": "2026-10-15 21:00:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": false,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/kagawa/kagawa-oktoberfest/72784",
+      "filtres": [
+        "Festivals"
+      ]
+    },
     {
       "source": "japantravel",
       "id": 72782,
@@ -6399,7 +6677,7 @@
       "slug": "naked-tsukimi-in-the-sky",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-14 18:00:00",
+        "start": "2026-10-01 18:00:00",
         "end": "2026-11-15 21:40:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6531,7 +6809,7 @@
       "slug": "pokemon-and-athletes-techniques-exhibition",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 10:00:00",
+        "start": "2026-10-01 10:00:00",
         "end": "2026-11-23 17:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6553,7 +6831,7 @@
       "slug": "renaissance-afternoon-tea-collaboration",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-03 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-31 23:59:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -6575,7 +6853,7 @@
       "slug": "louvre-museum-exhibition-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-09 10:00:00",
+        "start": "2026-10-01 10:00:00",
         "end": "2026-12-13 20:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6589,30 +6867,6 @@
       },
       "url": "https://en.japantravel.com/tokyo/louvre-museum-exhibition-1/72755",
       "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72749,
-      "title": "Autumn Delicacies Festival 2026",
-      "slug": "autumn-delicacies-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-18 10:00:00",
-        "end": "2026-09-23 15:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/hokkaido/autumn-delicacies-festival/72749",
-      "filtres": [
-        "Festivals"
-      ]
     },
     {
       "source": "japantravel",
@@ -6689,7 +6943,7 @@
       "slug": "arts-and-crafts-from-william-morris-to-frank-lloyd-wright",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-11 10:00:00",
+        "start": "2026-10-01 10:00:00",
         "end": "2026-11-03 18:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6711,7 +6965,7 @@
       "slug": "mappa-expo-15th-anniversary",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-16 10:00:00",
+        "start": "2026-10-01 10:00:00",
         "end": "2026-12-07 18:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6724,50 +6978,6 @@
         "name": "Culture"
       },
       "url": "https://en.japantravel.com/tokyo/mappa-expo-15th-anniversary/72739",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72738,
-      "title": "Yoimichi Toro 2026",
-      "slug": "yoimichi-toro-tokyo-station",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 17:00:00",
-        "end": "2026-09-06 23:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/yoimichi-toro-tokyo-station/72738",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72737,
-      "title": "Yaesu Night Markets 2026",
-      "slug": "yaesu-night-markets",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 17:00:00",
-        "end": "2026-09-06 21:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/tokyo/yaesu-night-markets/72737",
       "filtres": []
     },
     {
@@ -6796,34 +7006,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72734,
-      "title": "KANPAI! GUNMA 2026",
-      "slug": "kanpai-gunma",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-25 16:00:00",
-        "end": "2026-09-26 19:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/gunma/kanpai-gunma/72734",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72733,
       "title": "Pokémon Observatory 2026",
       "slug": "pokemon-observatory",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-21 09:00:00",
+        "start": "2026-10-01 09:00:00",
         "end": "2026-12-06 16:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6840,60 +7028,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72732,
-      "title": "Hattori Foot Festival 2026",
-      "slug": "hattori-foot-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-26 09:00:00",
-        "end": "2026-09-27 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/osaka/hattori-foot-festival/72732",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
-      "id": 72729,
-      "title": "K-BEAUTY Festival  2026",
-      "slug": "k-beauty-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 11:00:00",
-        "end": "2026-09-16 20:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 6,
-        "code": "beauty-spa",
-        "name": "Beauty & Spa"
-      },
-      "url": "https://en.japantravel.com/tokyo/k-beauty-festival/72729",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
       "id": 72728,
       "title": "Moominvalley Park Harvest 2026",
       "slug": "moominvalley-park-harvest",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-12 10:00:00",
+        "start": "2026-10-01 10:00:00",
         "end": "2026-10-25 20:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6910,34 +7050,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72726,
-      "title": "Marunouchi Street Market by Creema 2026",
-      "slug": "marunouchi-street-market-by-creema",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-13 11:00:00",
-        "end": "2026-09-14 19:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 7,
-        "code": "shopping",
-        "name": "Shopping"
-      },
-      "url": "https://en.japantravel.com/tokyo/marunouchi-street-market-by-creema/72726",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72725,
       "title": "Attack on Titan Pop-Up Cafe 2026",
       "slug": "attack-on-titan-pop-up-cafe",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-03 11:15:00",
+        "start": "2026-10-01 11:15:00",
         "end": "2026-10-12 21:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -6976,52 +7094,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72718,
-      "title": "30,000 Gentian Festival 2026",
-      "slug": "30000-gentian-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 08:30:00",
-        "end": "2026-09-23 16:30:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 2600,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/nagano/30000-gentian-festival/72718",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
-      "id": 72716,
-      "title": "Fullmetal Alchemist x Yomi no Tsugai Exhibition 2026",
-      "slug": "fullmetal-alchemist-x-yomi-no-tsugai-exhibition",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 11:00:00",
-        "end": "2026-09-02 20:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 2000,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/fullmetal-alchemist-x-yomi-no-tsugai-exhibition/72716",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72710,
       "title": "Maroon 5 Tokyo Tour 2027",
       "slug": "maroon-5-tokyo-tour",
@@ -7049,7 +7121,7 @@
       "slug": "esther-bunny-collaboration-cafe",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-08 23:59:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -7088,96 +7160,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72704,
-      "title": "HAKUSAN OUTDOOR FES 2026",
-      "slug": "hakusan-outdoor-fes",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-12 10:00:00",
-        "end": "2026-09-13 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/ishikawa/hakusan-outdoor-fes/72704",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72697,
-      "title": "Hatsune Miku Night Sky Program 2026",
-      "slug": "hatsune-miku-night-sky-program",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-21 00:00:00",
-        "end": "2026-09-23 23:59:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/niigata/hatsune-miku-night-sky-program/72697",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72693,
-      "title": "Kita Ward Fireworks Festival 2026",
-      "slug": "kita-ward-fireworks-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-26 18:30:00",
-        "end": "2026-09-26 19:40:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/kita-ward-fireworks-festival/72693",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
-      "id": 72691,
-      "title": "Seaside Night of Light and Wind 2026",
-      "slug": "seaside-night-of-light-and-wind",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-27 21:00:00",
-        "unknown_start_time": true,
-        "unknown_end_time": false
-      },
-      "event_general_price": 450,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/fukuoka/seaside-night-of-light-and-wind/72691",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72690,
       "title": "IBARAKI DREAM LAND 2026",
       "slug": "ibaraki-dream-land",
@@ -7205,7 +7187,7 @@
       "slug": "aichi-nagoya-art-and-lights",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-17 18:30:00",
+        "start": "2026-10-01 18:30:00",
         "end": "2026-10-24 21:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -7240,50 +7222,6 @@
         "name": "Activities"
       },
       "url": "https://en.japantravel.com/ehime/imabari-satoyama-marathon/72688",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72687,
-      "title": "World of Miniature Bistros Exhibition 2026",
-      "slug": "world-of-miniature-bistros-exhibition",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 11:00:00",
-        "end": "2026-09-13 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 800,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/aichi/world-of-miniature-bistros-exhibition/72687",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72686,
-      "title": "Tateyama Street Piano 2026",
-      "slug": "tateyama-street-piano",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-11 09:30:00",
-        "end": "2026-09-13 15:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/toyama/tateyama-street-piano/72686",
       "filtres": []
     },
     {
@@ -7360,34 +7298,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72676,
-      "title": "Shin Ramyun POP-UP Store \"SPICY HAPPINESS IN summer!\" 2026",
-      "slug": "shin-ramyun-pop-up-store-spicy-happiness-in-summer",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 09:00:00",
-        "end": "2026-09-13 21:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/kanagawa/shin-ramyun-pop-up-store-spicy-happiness-in-summer/72676",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72671,
       "title": "SNOOPY Hug Your Happiness Exhibition 2026-2027",
       "slug": "snoopy-hug-your-happiness-exhibition",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 09:30:00",
+        "start": "2026-10-01 09:30:00",
         "end": "2027-01-26 18:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -7400,28 +7316,6 @@
         "name": "Culture"
       },
       "url": "https://en.japantravel.com/ehime/snoopy-hug-your-happiness-exhibition/72671",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72667,
-      "title": "Minions & Monsters Afternoon Tea 2026",
-      "slug": "minions-and-monsters-afternoon-tea",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 12:00:00",
-        "end": "2026-09-03 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": true
-      },
-      "event_general_price": 5800,
-      "event_free": false,
-      "category": {
-        "id": 4,
-        "code": "food",
-        "name": "Food"
-      },
-      "url": "https://en.japantravel.com/osaka/minions-and-monsters-afternoon-tea/72667",
       "filtres": []
     },
     {
@@ -7448,28 +7342,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72649,
-      "title": "A Little Weird, But Fascinating, Mysterious Ningyo! 2026",
-      "slug": "a-little-weird-but-fascinating-mysterious-ningyo",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 09:00:00",
-        "end": "2026-09-06 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 300,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/saitama/a-little-weird-but-fascinating-mysterious-ningyo/72649",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72648,
       "title": "Summer Festa IN KORIYAMA 2027",
       "slug": "summer-festa-in-koriyama",
@@ -7488,50 +7360,6 @@
         "name": "Culture"
       },
       "url": "https://en.japantravel.com/fukushima/summer-festa-in-koriyama/72648",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72644,
-      "title": "Splash Circus 2026",
-      "slug": "splash-circus",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-05 00:00:00",
-        "end": "2026-09-13 23:59:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 6600,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/osaka/splash-circus/72644",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72640,
-      "title": "Kinshuko Great Waterfall Illumination 2026",
-      "slug": "kinshuko-great-waterfall-illumination",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 18:30:00",
-        "end": "2026-09-30 21:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/iwate/kinshuko-great-waterfall-illumination/72640",
       "filtres": []
     },
     {
@@ -7558,56 +7386,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72619,
-      "title": "NAKED Aqua Fantasia 2026",
-      "slug": "naked-aqua-fantasia",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 10:00:00",
-        "end": "2026-09-13 21:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 1800,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/aichi/naked-aqua-fantasia/72619",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72618,
-      "title": "Kuniyoshi Immersive Art 2026",
-      "slug": "kuniyoshi-immersive-art",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 10:00:00",
-        "end": "2026-09-23 18:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 1900,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/kyoto/kuniyoshi-immersive-art/72618",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72612,
       "title": "Hotel Floria Tokyo 2026-2027",
       "slug": "hotel-floria-tokyo",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2027-05-31 23:59:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -7670,30 +7454,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72579,
-      "title": "Puroland Neo Summer Festival 2026",
-      "slug": "puroland-neo-summer-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-01 23:59:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/tokyo/puroland-neo-summer-festival/72579",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
       "id": 72572,
       "title": "Nasu Sacred Fire Festival 2027",
       "slug": "nasu-sacred-fire-festival",
@@ -7718,34 +7478,12 @@
     },
     {
       "source": "japantravel",
-      "id": 72571,
-      "title": "The National Gallery London Afternoon Tea 2026",
-      "slug": "the-national-gallery-london-afternoon-tea",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-13 23:59:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 5800,
-      "event_free": false,
-      "category": {
-        "id": 4,
-        "code": "food",
-        "name": "Food"
-      },
-      "url": "https://en.japantravel.com/event/the-national-gallery-london-afternoon-tea/72571",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72570,
       "title": "Summer Lanterns: A Stroll Through the Steam of Hot Springs 2026",
       "slug": "summer-lanterns-a-stroll-through-the-steam-of-hot-springs",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 19:00:00",
+        "start": "2026-10-01 19:00:00",
         "end": "2026-10-31 21:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -7758,28 +7496,6 @@
         "name": "Activities"
       },
       "url": "https://en.japantravel.com/hokkaido/summer-lanterns-a-stroll-through-the-steam-of-hot-springs/72570",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72550,
-      "title": "Aquarium Dessert Buffet - Friends of the Sea 2026",
-      "slug": "aquarium-dessert-buffet-friends-of-the-sea",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-27 23:59:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 5300,
-      "event_free": false,
-      "category": {
-        "id": 4,
-        "code": "food",
-        "name": "Food"
-      },
-      "url": "https://en.japantravel.com/fukuoka/aquarium-dessert-buffet-friends-of-the-sea/72550",
       "filtres": []
     },
     {
@@ -7832,28 +7548,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72544,
-      "title": "Pokémon x Kogei Hiroshima 2026",
-      "slug": "pokemon-x-kogei-hiroshima",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 09:00:00",
-        "end": "2026-09-23 17:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 1800,
-      "event_free": false,
-      "category": {
-        "id": null,
-        "code": null,
-        "name": null
-      },
-      "url": "https://en.japantravel.com/hiroshima/pokemon-x-kogei-hiroshima/72544",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72530,
       "title": "Kyoto Art Fireworks 2027",
       "slug": "kyoto-art-fireworks",
@@ -7881,7 +7575,7 @@
       "slug": "echigo-tsumari-art-triennale",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-08 23:59:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -7903,8 +7597,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-29 00:00:00",
-        "end": "2026-09-29 23:59:00",
+        "start": "2026-10-06 00:00:00",
+        "end": "2026-10-06 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7925,8 +7619,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-29 00:00:00",
-        "end": "2026-09-29 23:59:00",
+        "start": "2026-10-06 00:00:00",
+        "end": "2026-10-06 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7938,50 +7632,6 @@
         "name": null
       },
       "url": "https://en.japantravel.com/event/gaudi-windows-on-the-future/72525",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72503,
-      "title": "Summer Cool Off At Tokyo Disney Resort® 2026",
-      "slug": "summer-cool-off-at-tokyo-disney-resort-1",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-14 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 2,
-        "code": "activity",
-        "name": "Activities"
-      },
-      "url": "https://en.japantravel.com/chiba/summer-cool-off-at-tokyo-disney-resort-1/72503",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 72494,
-      "title": "100% Doraemon and Friends in Tokyo 2026",
-      "slug": "100-doraemon-and-friends-in-tokyo",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-30 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/100-doraemon-and-friends-in-tokyo/72494",
       "filtres": []
     },
     {
@@ -8545,7 +8195,7 @@
       "slug": "galaxy-teamlab-continuous-life-death-at-the-now-of-eternity",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-12-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -8716,30 +8366,6 @@
         "name": "Culture"
       },
       "url": "https://en.japantravel.com/kyoto/kameoka-mitsuhide-festival/72264",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
-      "id": 72261,
-      "title": "Tokyo Anime Award Festival 2027",
-      "slug": "tokyo-anime-award-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2027-03-12 00:00:00",
-        "end": "2027-03-16 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/tokyo-anime-award-festival/72261",
       "filtres": [
         "Festivals"
       ]
@@ -8950,28 +8576,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72232,
-      "title": "Ukiyo-e Immersive Art HIROSHIMA 2026",
-      "slug": "ukiyo-e-immersive-art-hiroshima",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-06 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/hiroshima/ukiyo-e-immersive-art-hiroshima/72232",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72230,
       "title": "Thomas Town's Happy Valentine's Day 2027",
       "slug": "thomas-towns-happy-valentines-day",
@@ -9023,7 +8627,7 @@
       "slug": "marie-antoinette-style",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-23 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -9110,28 +8714,6 @@
     },
     {
       "source": "japantravel",
-      "id": 72207,
-      "title": "Picasso, Through the Eyes of Paul Smith 2026",
-      "slug": "picasso-through-the-eyes-of-paul-smith",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-21 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/picasso-through-the-eyes-of-paul-smith/72207",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 72206,
       "title": "What a Wonderful World Exhibition 2026-2027",
       "slug": "what-a-wonderful-world-exhibition",
@@ -9175,28 +8757,6 @@
       "filtres": [
         "Festivals"
       ]
-    },
-    {
-      "source": "japantravel",
-      "id": 72200,
-      "title": "Vermeer Girl with a Pearl Earring Exhibition 2026",
-      "slug": "vermeer-girl-with-a-pearl-earring-exhibition",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-27 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/osaka/vermeer-girl-with-a-pearl-earring-exhibition/72200",
-      "filtres": []
     },
     {
       "source": "japantravel",
@@ -9251,7 +8811,7 @@
       "slug": "mika-ninagawa-with-eim-dogo-onsen-dogo-art",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2027-02-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -9297,7 +8857,7 @@
       "slug": "mass-extinctions-the-big-five",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-12 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -9687,7 +9247,7 @@
       "slug": "sumida-river-sumi-yume-art-project",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-12-21 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -9709,7 +9269,7 @@
       "slug": "sumida-art-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-03 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-12-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -9965,7 +9525,7 @@
       "slug": "autumn-in-takaoka-city-of-crafts",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -10075,28 +9635,6 @@
       "filtres": [
         "Festivals"
       ]
-    },
-    {
-      "source": "japantravel",
-      "id": 71912,
-      "title": "VIDEO GAME PROM 2026",
-      "slug": "video-game-prom",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-16 19:00:00",
-        "end": "2026-09-16 23:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 5000,
-      "event_free": false,
-      "category": {
-        "id": 5,
-        "code": "nightlife",
-        "name": "Nightlife"
-      },
-      "url": "https://en.japantravel.com/tokyo/video-game-prom/71912",
-      "filtres": []
     },
     {
       "source": "japantravel",
@@ -10247,10 +9785,10 @@
       "slug": "sohei-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-05 00:00:00",
+        "start": "2026-10-04 17:00:00",
         "end": "2026-10-05 00:00:00",
         "unknown_start_time": false,
-        "unknown_end_time": false
+        "unknown_end_time": true
       },
       "event_general_price": 0,
       "event_free": true,
@@ -10739,7 +10277,7 @@
       "slug": "biwako-biennale",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-16 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -10761,7 +10299,7 @@
       "slug": "aichi-triennale",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-12 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -10989,7 +10527,7 @@
       "slug": "asian-games-aichi-nagoya",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-18 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -11775,8 +11313,8 @@
       "slug": "one-piece-premier-summer",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-10-06 00:00:00",
+        "start": "2026-10-01 00:00:00",
+        "end": "2026-11-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -12531,12 +12069,12 @@
     {
       "source": "japantravel",
       "id": 71294,
-      "title": "Fox Wedding Festival 2026",
+      "title": "Fox Wedding Festival 2027",
       "slug": "fox-wedding-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-27 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2027-09-27 00:00:00",
+        "end": "2027-09-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -13349,14 +12887,14 @@
     {
       "source": "japantravel",
       "id": 70942,
-      "title": "Tamagawa Fireworks Festival 2026",
+      "title": "Tamagawa Fireworks Festival 2027",
       "slug": "tamagawa-fireworks-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 00:00:00",
-        "end": "2026-10-04 00:00:00",
+        "start": "2027-10-03 18:00:00",
+        "end": "2027-10-03 00:00:00",
         "unknown_start_time": false,
-        "unknown_end_time": false
+        "unknown_end_time": true
       },
       "event_general_price": 0,
       "event_free": false,
@@ -13752,7 +13290,7 @@
       "lang": "en",
       "event_date": {
         "start": "2027-09-12 00:00:00",
-        "end": "2027-09-27 00:00:00",
+        "end": "2027-09-26 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -15224,28 +14762,6 @@
     },
     {
       "source": "japantravel",
-      "id": 70487,
-      "title": "Antique Grande 2026",
-      "slug": "antique-grande",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-09 00:00:00",
-        "end": "2026-09-21 00:00:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 1000,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/antique-grande/70487",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
       "id": 70486,
       "title": "Setsubun Bean Throwing Train 2027",
       "slug": "setsubun-bean-throwing-train",
@@ -16267,7 +15783,7 @@
       "slug": "craft-beer-japan-hop-fest",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -16559,7 +16075,7 @@
       "slug": "echigo-hillside-park-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-21 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-27 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -16814,37 +16330,13 @@
     },
     {
       "source": "japantravel",
-      "id": 70155,
-      "title": "Tokuyama Railway Festival 2026",
-      "slug": "tokuyama-railway-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-10-14 00:00:00",
-        "end": "2026-10-14 00:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/yamaguchi/tokuyama-railway-festival/70155",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
       "id": 70150,
-      "title": "Hinokage Chestnut Festival 2026",
+      "title": "Hinokage Chestnut Festival 2027",
       "slug": "hinokage-chestnut-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-27 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2027-09-27 00:00:00",
+        "end": "2027-09-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -17025,8 +16517,8 @@
       "slug": "dontsuku-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 00:00:00",
-        "end": "2026-10-04 00:00:00",
+        "start": "2026-10-03 14:00:00",
+        "end": "2026-10-03 21:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -17202,28 +16694,6 @@
         "name": null
       },
       "url": "https://en.japantravel.com/hiroshima/hiroshima-oktoberfest/70110",
-      "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 70108,
-      "title": "The Beer Fes in Nagaoka 2026",
-      "slug": "the-beer-fes-in-nagaoka",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-04 00:00:00",
-        "end": "2026-09-06 00:00:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/niigata/the-beer-fes-in-nagaoka/70108",
       "filtres": []
     },
     {
@@ -17463,12 +16933,12 @@
     {
       "source": "japantravel",
       "id": 70080,
-      "title": "Kanazawa Handmade Marche 2026",
+      "title": "Kanazawa Handmade Marche 2027",
       "slug": "kanazawa-handmade-marche",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-04 00:00:00",
+        "start": "2027-10-03 00:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -18021,12 +17491,12 @@
     {
       "source": "japantravel",
       "id": 70014,
-      "title": "Kokura Handmade Marche 2026",
+      "title": "Kokura Handmade Marche 2027",
       "slug": "kokura-handmade-marche",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-27 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2027-09-27 00:00:00",
+        "end": "2027-09-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -18133,28 +17603,6 @@
       "filtres": [
         "Festivals"
       ]
-    },
-    {
-      "source": "japantravel",
-      "id": 69987,
-      "title": "Oedo Antique Market 2026",
-      "slug": "oedo-antique-market",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-21 09:00:00",
-        "end": "2026-09-21 16:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 7,
-        "code": "shopping",
-        "name": "Shopping"
-      },
-      "url": "https://en.japantravel.com/tokyo/oedo-antique-market/69987",
-      "filtres": []
     },
     {
       "source": "japantravel",
@@ -18423,8 +17871,8 @@
       "slug": "asakusa-awa-odori",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-28 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2026-10-11 16:00:00",
+        "end": "2026-10-11 18:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -18585,7 +18033,7 @@
       "slug": "tanbo-art-in-aomori",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 09:00:00",
+        "start": "2026-10-01 09:00:00",
         "end": "2026-10-12 17:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -18655,8 +18103,8 @@
       "slug": "roppongi-art-night",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-25 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2026-10-31 17:00:00",
+        "end": "2026-11-01 06:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -20227,7 +19675,7 @@
       "slug": "yushima-cat-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-12 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-09 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -21063,12 +20511,12 @@
     {
       "source": "japantravel",
       "id": 69321,
-      "title": "Japan Open 2026",
+      "title": "Japan Open 2027",
       "slug": "japan-open",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-21 00:00:00",
-        "end": "2026-09-30 00:00:00",
+        "start": "2027-09-21 00:00:00",
+        "end": "2027-09-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -21137,7 +20585,7 @@
       "slug": "atami-marine-fireworks-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 20:20:00",
+        "start": "2026-10-01 20:20:00",
         "end": "2027-02-21 20:40:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -21257,7 +20705,7 @@
       "slug": "matsue-water-light-road",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-26 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-18 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -21303,8 +20751,8 @@
       "slug": "hokkaido-fair-at-yoyogi",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-02 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2026-10-01 10:00:00",
+        "end": "2026-10-04 19:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -21317,30 +20765,6 @@
       },
       "url": "https://en.japantravel.com/tokyo/hokkaido-fair-at-yoyogi/69252",
       "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 69250,
-      "title": "China Festival (Yoyogi) 2026",
-      "slug": "china-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-05 10:00:00",
-        "end": "2026-09-06 20:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/tokyo/china-festival/69250",
-      "filtres": [
-        "Festivals"
-      ]
     },
     {
       "source": "japantravel",
@@ -21535,7 +20959,7 @@
       "slug": "rainbow-flower-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-12 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -21559,7 +20983,7 @@
       "slug": "sado-island-galaxy-art-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2027-03-15 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -22037,12 +21461,12 @@
     {
       "source": "japantravel",
       "id": 68932,
-      "title": "เทศกาลโคมไฟแห่งโอะไดบะ 2026",
+      "title": "เทศกาลโคมไฟแห่งโอะไดบะ 2027",
       "slug": "เทศกาลโคมไฟแห่งโอะไดบะ",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -22735,7 +22159,7 @@
       "slug": "osaka-light-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-12-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -23233,7 +22657,7 @@
       "slug": "huis-ten-bosch-halloween",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-13 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -23637,7 +23061,7 @@
       "slug": "atre-kawasaki-bbq-beer-garden",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-15 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -23683,7 +23107,7 @@
       "slug": "step-up-challenge",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-09 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -24653,7 +24077,7 @@
       "slug": "cosmos-season-at-kinryu-park",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-30 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-15 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -24861,7 +24285,7 @@
       "slug": "cosmos-alley-in-shinshiro-aichi",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-30 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-15 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -24879,12 +24303,12 @@
     {
       "source": "japantravel",
       "id": 65967,
-      "title": "Cosmos Season at the Kurohime Plateau 2026",
+      "title": "Cosmos Season at the Kurohime Plateau 2027",
       "slug": "cosmos-season-at-the-kurohime-plateau",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-10-03 00:00:00",
+        "start": "2027-07-31 00:00:00",
+        "end": "2027-10-03 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -25441,7 +24865,7 @@
       "slug": "toyono-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-14 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -25627,7 +25051,7 @@
       "slug": "satte-higanbana-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -25675,7 +25099,7 @@
       "slug": "sunflowers-at-hokkaido-s-palette-hill",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -25741,7 +25165,7 @@
       "slug": "aki-irodori-festa",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-14 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-27 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -25829,12 +25253,12 @@
     {
       "source": "japantravel",
       "id": 65552,
-      "title": "Cosmos Festa at Taiyo-no-Oka Engaru Park 2026",
+      "title": "Cosmos Festa at Taiyo-no-Oka Engaru Park 2027",
       "slug": "cosmos-festa-at-taiyo-no-oka-engar",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-30 00:00:00",
+        "start": "2027-08-14 00:00:00",
+        "end": "2027-09-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -26039,7 +25463,7 @@
       "slug": "cosmos-at-hannyaji-temple",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -26149,7 +25573,7 @@
       "slug": "ikoma-plateau-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-22 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -26269,7 +25693,7 @@
       "slug": "sera-kogen-dahlia-and-chrysanthemum-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-12 09:00:00",
+        "start": "2026-10-01 09:00:00",
         "end": "2026-11-03 17:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -27985,12 +27409,12 @@
     {
       "source": "japantravel",
       "id": 64414,
-      "title": "오다이바 등불 축제  2026",
+      "title": "오다이바 등불 축제  2027",
       "slug": "오다이바-등불-축제",
       "lang": "ko",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -28055,7 +27479,7 @@
       "slug": "dahlia-garden-at-mount-ryokami",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-03 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -28554,22 +27978,22 @@
       "source": "japantravel",
       "id": 63919,
       "title": "Nature Groove 2026",
-      "slug": "mountain-music-festival",
+      "slug": "nature-groove",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-04 00:00:00",
+        "start": "2026-10-17 13:00:00",
+        "end": "2026-10-17 22:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
-      "event_general_price": 7000,
+      "event_general_price": 4000,
       "event_free": false,
       "category": {
         "id": 3,
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/gunma/mountain-music-festival/63919",
+      "url": "https://en.japantravel.com/gunma/nature-groove/63919",
       "filtres": []
     },
     {
@@ -28979,12 +28403,12 @@
     {
       "source": "japantravel",
       "id": 63149,
-      "title": "Shizuoka Chagori 2026",
+      "title": "Shizuoka Chagori 2027",
       "slug": "shizuoka-chagori",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
-        "end": "2026-09-30 00:00:00",
+        "start": "2027-07-01 00:00:00",
+        "end": "2027-09-30 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -29029,7 +28453,7 @@
       "slug": "nabana-no-sato-illuminationen",
       "lang": "de",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -29159,12 +28583,12 @@
     {
       "source": "japantravel",
       "id": 63105,
-      "title": "Odaiba Laternen Fest 2026",
+      "title": "Odaiba Laternen Fest 2027",
       "slug": "odaiba-laternen-fest",
       "lang": "de",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -29643,7 +29067,7 @@
       "slug": "cai-hua-zhi-li",
       "lang": "zh_Hans",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -29687,7 +29111,7 @@
       "slug": "ming-hua-zhi-li-deng-hai",
       "lang": "zh_Hant",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -29709,7 +29133,7 @@
       "slug": "festival-cahaya-nabana-no-sato",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -31073,12 +30497,12 @@
     {
       "source": "japantravel",
       "id": 60309,
-      "title": "Shinagawa Shukuba Matsuri 2026",
+      "title": "Shinagawa Shukuba Matsuri 2027",
       "slug": "shinagawa-shukuba-matsuri",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-26 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2027-09-26 00:00:00",
+        "end": "2027-09-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -31219,8 +30643,8 @@
       "slug": "tsurugi-hourai-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2026-10-03 12:00:00",
+        "end": "2026-10-04 22:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -31427,7 +30851,7 @@
       "slug": "иллюминация-в-набана-но-сато",
       "lang": "ru",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -31747,7 +31171,7 @@
       "slug": "rice-field-art-59457",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-06 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -31909,7 +31333,7 @@
       "slug": "나바나노사토-일루미네이션",
       "lang": "ko",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -31931,7 +31355,7 @@
       "slug": "13th-washu-fes-in-nakameguro",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-01 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-08 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -32085,7 +31509,7 @@
       "slug": "canh-dong-hoa-nabana-no-sato",
       "lang": "vi",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -33509,8 +32933,8 @@
       "slug": "animejapan",
       "lang": "ko",
       "event_date": {
-        "start": "2027-03-28 00:00:00",
-        "end": "2027-03-31 00:00:00",
+        "start": "2027-03-26 00:00:00",
+        "end": "2027-03-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -36194,7 +35618,7 @@
       "lang": "vi",
       "event_date": {
         "start": "2026-10-10 00:00:00",
-        "end": "2026-10-12 00:00:00",
+        "end": "2026-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -38021,7 +37445,7 @@
       "slug": "spooky-halloween-experience-at-sanrio-puroland",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-11 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-11-03 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
@@ -38331,7 +37755,7 @@
       "slug": "le-hoi-manjushage",
       "lang": "vi",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -38435,28 +37859,6 @@
       "filtres": [
         "Festivals"
       ]
-    },
-    {
-      "source": "japantravel",
-      "id": 47683,
-      "title": "Lễ hội chuông gió Enmusubi ở Saitama 2026",
-      "slug": "le-hoi-chuong-gio-enmusubi-saitama",
-      "lang": "vi",
-      "event_date": {
-        "start": "2026-09-01 09:00:00",
-        "end": "2026-09-06 20:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": false,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/saitama/le-hoi-chuong-gio-enmusubi-saitama/47683",
-      "filtres": []
     },
     {
       "source": "japantravel",
@@ -38575,7 +37977,7 @@
       "slug": "manjushage-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-19 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -40271,12 +39673,12 @@
     {
       "source": "japantravel",
       "id": 45483,
-      "title": "Фестиваль фонарей на Одайбе 2026",
+      "title": "Фестиваль фонарей на Одайбе 2027",
       "slug": "festival-fonarei-na-odaibe",
       "lang": "ru",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -41655,8 +41057,8 @@
       "slug": "animejapan-2018-44378",
       "lang": "ru",
       "event_date": {
-        "start": "2027-03-28 00:00:00",
-        "end": "2027-03-31 00:00:00",
+        "start": "2027-03-26 00:00:00",
+        "end": "2027-03-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -41741,12 +41143,12 @@
     {
       "source": "japantravel",
       "id": 44195,
-      "title": "Lễ hội lồng đèn Odaiba 2026",
+      "title": "Lễ hội lồng đèn Odaiba 2027",
       "slug": "le-hoi-long-den-odaiba",
       "lang": "vi",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -41991,8 +41393,8 @@
       "slug": "anime-nhat-ban-2019",
       "lang": "vi",
       "event_date": {
-        "start": "2027-03-28 00:00:00",
-        "end": "2027-03-31 00:00:00",
+        "start": "2027-03-26 00:00:00",
+        "end": "2027-03-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -42013,8 +41415,8 @@
       "slug": "animejapan-2018",
       "lang": "fr",
       "event_date": {
-        "start": "2027-03-28 00:00:00",
-        "end": "2027-03-31 00:00:00",
+        "start": "2027-03-26 00:00:00",
+        "end": "2027-03-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -42032,11 +41434,11 @@
       "source": "japantravel",
       "id": 43936,
       "title": "AnimeJapan 2027",
-      "slug": "anime-japan-1",
+      "slug": "anime-japan",
       "lang": "en",
       "event_date": {
-        "start": "2027-03-28 00:00:00",
-        "end": "2027-03-31 00:00:00",
+        "start": "2027-03-26 00:00:00",
+        "end": "2027-03-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -42047,7 +41449,7 @@
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/tokyo/anime-japan-1/43936",
+      "url": "https://en.japantravel.com/tokyo/anime-japan/43936",
       "filtres": []
     },
     {
@@ -45203,12 +44605,12 @@
     {
       "source": "japantravel",
       "id": 41633,
-      "title": "งานเทศกาลดอกลิลลี่แมงมุม 2026",
+      "title": "งานเทศกาลดอกลิลลี่แมงมุม 2027",
       "slug": "งานเทศกาลดอกลิลลี่แมงมุม",
       "lang": "th",
       "event_date": {
-        "start": "2026-09-16 00:00:00",
-        "end": "2026-10-01 00:00:00",
+        "start": "2027-09-16 00:00:00",
+        "end": "2027-10-01 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -46995,12 +46397,12 @@
     {
       "source": "japantravel",
       "id": 39035,
-      "title": "Festival Lentera Odaiba 2026",
+      "title": "Festival Lentera Odaiba 2027",
       "slug": "festival-lentera-odaiba",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -47019,12 +46421,12 @@
     {
       "source": "japantravel",
       "id": 39028,
-      "title": "Festival das Lanternas de Odaiba 2026",
+      "title": "Festival das Lanternas de Odaiba 2027",
       "slug": "festival-das-lanternas-de-odaiba",
       "lang": "pt",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -47043,12 +46445,12 @@
     {
       "source": "japantravel",
       "id": 38999,
-      "title": "Odaiba Lantern Festival 2026",
+      "title": "Odaiba Lantern Festival 2027",
       "slug": "odaiba-lantern-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-03 17:00:00",
+        "end": "2027-10-04 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -52756,7 +52158,7 @@
       "source": "japantravel",
       "id": 31723,
       "title": "Sapporo Snow Festival 2027",
-      "slug": "sapporo-snow-festival-31724",
+      "slug": "sapporo-snow-festival",
       "lang": "en",
       "event_date": {
         "start": "2027-02-03 00:00:00",
@@ -52771,7 +52173,7 @@
         "code": "activity",
         "name": "Activities"
       },
-      "url": "https://en.japantravel.com/hokkaido/sapporo-snow-festival-31724/31723",
+      "url": "https://en.japantravel.com/hokkaido/sapporo-snow-festival/31723",
       "filtres": [
         "Festivals"
       ]
@@ -53146,30 +52548,6 @@
       },
       "url": "https://en.japantravel.com/fukuoka/kowakamai/30454",
       "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 30421,
-      "title": "Kashiwa Matsuri 2026",
-      "slug": "kashiwa-matsuri",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-19 13:00:00",
-        "end": "2026-09-20 19:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/chiba/kashiwa-matsuri/30421",
-      "filtres": [
-        "Festivals"
-      ]
     },
     {
       "source": "japantravel",
@@ -53855,30 +53233,6 @@
         "name": "Culture"
       },
       "url": "https://en.japantravel.com/tokyo/ryogoku-nigiwai-festival/28645",
-      "filtres": [
-        "Festivals"
-      ]
-    },
-    {
-      "source": "japantravel",
-      "id": 28641,
-      "title": "Saitama's Enmusubi Wind Chime Festival 2026",
-      "slug": "saitamas-enmusubi-wind-chime-festival",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-01 09:00:00",
-        "end": "2026-09-06 20:00:00",
-        "unknown_start_time": false,
-        "unknown_end_time": false
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/saitama/saitamas-enmusubi-wind-chime-festival/28641",
       "filtres": [
         "Festivals"
       ]
@@ -57948,7 +57302,7 @@
       "slug": "なばなの里イリュミネーション",
       "lang": "ja",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -58243,7 +57597,7 @@
       "lang": "id",
       "event_date": {
         "start": "2026-10-10 00:00:00",
-        "end": "2026-10-12 00:00:00",
+        "end": "2026-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58289,7 +57643,7 @@
       "lang": "en",
       "event_date": {
         "start": "2026-10-10 00:00:00",
-        "end": "2026-10-12 00:00:00",
+        "end": "2026-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58330,12 +57684,12 @@
     {
       "source": "japantravel",
       "id": 15447,
-      "title": "Namaste India Festival in Tokyo 2026",
+      "title": "Namaste India Festival in Tokyo 2027",
       "slug": "namaste-india-festival-in-tokyo",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-26 00:00:00",
-        "end": "2026-09-28 00:00:00",
+        "start": "2027-09-26 00:00:00",
+        "end": "2027-09-28 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58438,30 +57792,6 @@
       },
       "url": "https://en.japantravel.com/fukui/越前朝倉万灯夜/15308",
       "filtres": []
-    },
-    {
-      "source": "japantravel",
-      "id": 15247,
-      "title": "Kishiwada Danjiri Matsuri 2026",
-      "slug": "kishiwada-danjiri-matsuri",
-      "lang": "en",
-      "event_date": {
-        "start": "2026-09-19 06:00:00",
-        "end": "2026-09-20 22:00:00",
-        "unknown_start_time": true,
-        "unknown_end_time": true
-      },
-      "event_general_price": 0,
-      "event_free": true,
-      "category": {
-        "id": 3,
-        "code": "culture",
-        "name": "Culture"
-      },
-      "url": "https://en.japantravel.com/osaka/kishiwada-danjiri-matsuri/15247",
-      "filtres": [
-        "Festivals"
-      ]
     },
     {
       "source": "japantravel",
@@ -60584,7 +59914,7 @@
       "slug": "การแสดงแสงไฟที่นะบานะโนะซาโตะ",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -62878,7 +62208,7 @@
       "slug": "oktoberfest-in-yokohama",
       "lang": "en",
       "event_date": {
-        "start": "2026-09-25 00:00:00",
+        "start": "2026-10-01 00:00:00",
         "end": "2026-10-13 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
@@ -63600,7 +62930,7 @@
       "slug": "nabana-no-sato-winter-illumination",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
+        "start": "2026-10-17 00:00:00",
         "end": "2027-05-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
