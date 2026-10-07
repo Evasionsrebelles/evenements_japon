@@ -8,18 +8,6 @@
       "title": "Événements d'octobre 2026 au Japon",
       "days": [
         {
-          "day": 5,
-          "weekday_letter": "L",
-          "date_iso": "2026-10-05",
-          "events": []
-        },
-        {
-          "day": 6,
-          "weekday_letter": "M",
-          "date_iso": "2026-10-06",
-          "events": []
-        },
-        {
           "day": 7,
           "weekday_letter": "M",
           "date_iso": "2026-10-07",
@@ -6418,6 +6406,96 @@
   "japantravel_events": [
     {
       "source": "japantravel",
+      "id": 72793,
+      "title": "All Japan Surfing Championships 2026",
+      "slug": "all-japan-surfing-championships",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-08 00:00:00",
+        "end": "2026-10-15 23:59:00",
+        "unknown_start_time": true,
+        "unknown_end_time": true
+      },
+      "event_general_price": 0,
+      "event_free": false,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/fukushima/all-japan-surfing-championships/72793",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72792,
+      "title": "Niigata Vietnam Festival 2026",
+      "slug": "niigata-vietnam-festival",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-11 10:00:00",
+        "end": "2026-10-12 16:30:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/niigata/niigata-vietnam-festival/72792",
+      "filtres": [
+        "Festivals"
+      ]
+    },
+    {
+      "source": "japantravel",
+      "id": 72791,
+      "title": "Open Hasami 2026",
+      "slug": "open-hasami",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-31 00:00:00",
+        "end": "2026-11-03 23:59:00",
+        "unknown_start_time": true,
+        "unknown_end_time": true
+      },
+      "event_general_price": 0,
+      "event_free": false,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/nagasaki/open-hasami/72791",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72790,
+      "title": "MOMIJI AQUARIUM by NAKED 2026",
+      "slug": "momiji-aquarium-by-naked",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-10-01 10:00:00",
+        "end": "2026-11-08 20:00:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 2800,
+      "event_free": false,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/tokyo/momiji-aquarium-by-naked/72790",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
       "id": 72788,
       "title": "Kotogahama Bamboo Lantern Evening 2026",
       "slug": "kotogahama-bamboo-lantern-evening",
@@ -7597,8 +7675,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-06 00:00:00",
-        "end": "2026-10-06 23:59:00",
+        "start": "2026-10-08 00:00:00",
+        "end": "2026-10-08 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7619,8 +7697,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-06 00:00:00",
-        "end": "2026-10-06 23:59:00",
+        "start": "2026-10-08 00:00:00",
+        "end": "2026-10-08 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9357,12 +9435,12 @@
     {
       "source": "japantravel",
       "id": 71969,
-      "title": "Kasuga Andon Festival 2026",
+      "title": "Kasuga Andon Festival 2027",
       "slug": "kasuga-andon-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-04 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9639,12 +9717,12 @@
     {
       "source": "japantravel",
       "id": 71910,
-      "title": "Kyoto Bread Festival at Kamigamo Shrine 2026",
+      "title": "Kyoto Bread Festival at Kamigamo Shrine 2027",
       "slug": "kyoto-bread-festival-at-kamigamo-shrine",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-04 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9781,12 +9859,12 @@
     {
       "source": "japantravel",
       "id": 71900,
-      "title": "Sohei Festival 2026",
+      "title": "Sohei Festival 2027",
       "slug": "sohei-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 17:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-04 17:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": true
       },
@@ -16285,12 +16363,12 @@
     {
       "source": "japantravel",
       "id": 70162,
-      "title": "Ago Festival 2026",
+      "title": "Ago Festival 2027",
       "slug": "ago-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-04 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-04 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -22155,12 +22233,12 @@
     {
       "source": "japantravel",
       "id": 68266,
-      "title": "Osaka Light Festival 2026",
-      "slug": "osaka-light-festival",
+      "title": "Festival of the Lights in Osaka 2026-2027",
+      "slug": "festival-of-the-lights-in-osaka",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-12-30 00:00:00",
+        "start": "2026-11-03 00:00:00",
+        "end": "2027-01-31 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -22171,7 +22249,7 @@
         "code": "nightlife",
         "name": "Nightlife"
       },
-      "url": "https://en.japantravel.com/osaka/osaka-light-festival/68266",
+      "url": "https://en.japantravel.com/osaka/festival-of-the-lights-in-osaka/68266",
       "filtres": [
         "Festivals"
       ]
@@ -22817,8 +22895,8 @@
       "slug": "light-of-hope",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-03 00:00:00",
-        "end": "2026-10-03 20:00:00",
+        "start": "2026-11-07 20:00:00",
+        "end": "2026-11-07 20:00:00",
         "unknown_start_time": true,
         "unknown_end_time": false
       },
@@ -25047,12 +25125,12 @@
     {
       "source": "japantravel",
       "id": 65600,
-      "title": "Satte Higanbana Festival 2026",
+      "title": "Satte Higanbana Festival 2027",
       "slug": "satte-higanbana-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -30521,12 +30599,12 @@
     {
       "source": "japantravel",
       "id": 60304,
-      "title": "Tsubame Sanjo Factory Festival 2026",
+      "title": "Tsubame Sanjo Factory Festival 2027",
       "slug": "tsubame-sanjo-factory-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-01 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -31167,12 +31245,12 @@
     {
       "source": "japantravel",
       "id": 59456,
-      "title": "Rice Field Art in Gyoda 2026",
+      "title": "Rice Field Art in Gyoda 2027",
       "slug": "rice-field-art-59457",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-06 00:00:00",
+        "start": "2027-07-09 00:00:00",
+        "end": "2027-10-06 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -37751,12 +37829,12 @@
     {
       "source": "japantravel",
       "id": 47865,
-      "title": "Lễ hội Manjushage  2026",
+      "title": "Lễ hội Manjushage  2027",
       "slug": "le-hoi-manjushage",
       "lang": "vi",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -37973,12 +38051,12 @@
     {
       "source": "japantravel",
       "id": 47360,
-      "title": "Manjushage Festival 2026",
+      "title": "Manjushage Festival 2027",
       "slug": "manjushage-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -39313,12 +39391,12 @@
     {
       "source": "japantravel",
       "id": 45946,
-      "title": "เทศกาลฤดูใบไม้ร่วง 'ซุอิกิ มัตซึตริ'  2026",
+      "title": "เทศกาลฤดูใบไม้ร่วง 'ซุอิกิ มัตซึตริ'  2027",
       "slug": "เทศกาลฤดูใบไม้ร่วง-ซุอิกิ-มัตซึตริ",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-05 00:00:00",
+        "start": "2027-10-01 00:00:00",
+        "end": "2027-10-05 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -52134,7 +52212,7 @@
       "source": "japantravel",
       "id": 31740,
       "title": "Miyajima Oyster Festival 2027",
-      "slug": "miyajima-oyster-festival-31741",
+      "slug": "miyajima-oyster-festival",
       "lang": "en",
       "event_date": {
         "start": "2027-02-14 00:00:00",
@@ -52149,7 +52227,7 @@
         "code": "food",
         "name": "Food"
       },
-      "url": "https://en.japantravel.com/hiroshima/miyajima-oyster-festival-31741/31740",
+      "url": "https://en.japantravel.com/hiroshima/miyajima-oyster-festival/31740",
       "filtres": [
         "Festivals"
       ]
@@ -58712,8 +58790,8 @@
       "slug": "tokyo-auto-salon",
       "lang": "en",
       "event_date": {
-        "start": "2027-01-08 00:00:00",
-        "end": "2027-01-11 00:00:00",
+        "start": "2027-01-15 00:00:00",
+        "end": "2027-01-17 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -60957,7 +61035,7 @@
       "source": "japantravel",
       "id": 3961,
       "title": "Cosquerade in Hiroshima 2027",
-      "slug": "yokogawa-festival-3962",
+      "slug": "yokogawa-festival",
       "lang": "en",
       "event_date": {
         "start": "2027-03-13 00:00:00",
@@ -60972,7 +61050,7 @@
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/hiroshima/yokogawa-festival-3962/3961",
+      "url": "https://en.japantravel.com/hiroshima/yokogawa-festival/3961",
       "filtres": []
     },
     {
