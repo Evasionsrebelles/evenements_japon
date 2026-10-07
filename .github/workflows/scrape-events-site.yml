@@ -10,15 +10,31 @@
 #    "Actions" de GitHub.
 # 2. Installe Python sur une machine virtuelle temporaire.
 # 3. Installe les dépendances du scraper (requests, beautifulsoup4).
-# 4. Exécute 00_calendar_scraper.py, qui régénère calendrier-japon.json
+# 4. Sauvegarde l'ancienne version : clone evenements_japon (branche
+#    main) AVANT le scraping, en copie calendrier-japon.json et relève
+#    la date (JST) de son dernier commit, qui sert de date à l'archive.
+# 5. Exécute 00_calendar_scraper.py, qui régénère calendrier-japon.json
 #    et le publie DIRECTEMENT sur
 #    github.com/Evasionsrebelles/evenements_japon (branche main),
 #    via l'API GitHub Contents — pas besoin d'étape "git commit/push"
 #    séparée, le script s'en charge lui-même.
-# 5. Purge ensuite le cache jsDelivr du CSS/JS du calendrier (géré
+# 6. Archive l'ancienne version : si le nouveau calendrier-japon.json
+#    diffère de l'ancien, ce dernier est copié sous
+#    calendrier-japon_DD_MM_YY.json (date de l'ancienne version) et
+#    poussé sur evenements_japon. Seules les 5 archives les plus
+#    récentes sont conservées : les plus anciennes sont supprimées
+#    (tri par année, puis mois, puis jour).
+# 7. Purge ensuite le cache jsDelivr du CSS/JS du calendrier (géré
 #    aussi en interne par le script).
-# 6. Envoie un mail de statut (succès ou échec) via Gmail SMTP, quel
+# 8. Envoie un mail de statut (succès ou échec) via Gmail SMTP, quel
 #    que soit le résultat des étapes précédentes.
+#
+# L'archivage est "best effort" : si la sauvegarde ou l'archivage
+# échoue, le scraping et sa publication ne sont pas affectés, et le
+# mail de statut indique le résultat de ces deux étapes.
+#
+# Hypothèse : calendrier-japon.json est à la racine de evenements_japon.
+# Si ce n'est pas le cas, adapter les chemins dans les étapes 4 et 6.
 #
 # Secrets GitHub Actions requis pour le mail :
 #   MAIL_USERNAME : adresse Gmail complète (ex: toncompte@gmail.com)
@@ -32,6 +48,10 @@
 # effectivement utilisé, la constante GITHUB_TOKEN_HARDCODED en haut
 # de 00_calendar_scraper.py doit être vide ("") dans le fichier commité
 # au dépôt. Ne jamais committer de vrai jeton en clair dans le script.
+# Le même jeton GH_PAT sert aussi, dans ce workflow, à cloner
+# evenements_japon et à y pousser les archives : il doit donc avoir le
+# droit d'écriture sur le contenu de ce dépôt (c'est déjà le cas, puisque
+# le script y publie via l'API).
 # ============================================================
 
 name: Scraping hebdomadaire du calendrier Japon
@@ -46,6 +66,11 @@ on:
   # "0 0 * * 1" = tous les lundis à 00h00 UTC.
   schedule:
     - cron: '0 0 * * 1'
+
+env:
+  # Dépôt cible où le scraper publie calendrier-japon.json
+  # et où sont poussées les archives.
+  TARGET_REPO: Evasionsrebelles/evenements_japon
 
 jobs:
   scrape:
@@ -66,7 +91,28 @@ jobs:
       - name: Installation des dépendances
         run: pip install requests beautifulsoup4
 
-      # Étape 4 : lance le scraper, qui régénère calendrier-japon.json
+      # Étape 4 : sauvegarde l'ancienne version (avant que le scraper
+      # ne la remplace) et relève sa date, d'après le dernier commit
+      # qui a touché calendrier-japon.json (en heure du Japon).
+      # continue-on-error : un échec ici ne doit pas bloquer le scraping.
+      - name: Sauvegarde de l'ancienne version
+        id: backup
+        continue-on-error: true
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          rm -rf /tmp/target
+          git clone --quiet "https://x-access-token:${GH_PAT}@github.com/${TARGET_REPO}.git" /tmp/target
+          cd /tmp/target
+          if [ -f calendrier-japon.json ]; then
+            cp calendrier-japon.json /tmp/old_calendrier-japon.json
+            TZ='Asia/Tokyo' git log -1 --date=format-local:'%d_%m_%y' --format=%cd -- calendrier-japon.json > /tmp/old_date.txt
+            echo "Ancienne version sauvegardée (date : $(cat /tmp/old_date.txt))."
+          else
+            echo "Pas de calendrier-japon.json dans le dépôt cible : rien à sauvegarder."
+          fi
+
+      # Étape 5 : lance le scraper, qui régénère calendrier-japon.json
       # et le publie directement sur le dépôt cible via l'API GitHub
       # (voir la note en tête de fichier concernant GITHUB_TOKEN_HARDCODED).
       - name: Exécution du scraper
@@ -75,7 +121,66 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python3 00_calendar_scraper.py
 
-      # Étape 5 : envoie un mail de statut, que le scraping ait réussi
+      # Étape 6 : archive l'ancienne version sous
+      # calendrier-japon_DD_MM_YY.json si les données ont changé, puis ne
+      # garde que les 5 archives les plus récentes, et pousse le tout
+      # sur le dépôt cible.
+      - name: Archivage de l'ancienne version
+        id: archive
+        if: steps.scrape.outcome == 'success' && steps.backup.outcome == 'success'
+        continue-on-error: true
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          # Aucune ancienne version : première exécution, rien à archiver.
+          if [ ! -f /tmp/old_calendrier-japon.json ]; then
+            echo "Pas d'ancienne version : rien à archiver."
+            exit 0
+          fi
+
+          # Récupère la version fraîchement publiée par le scraper.
+          cd /tmp/target
+          git pull --quiet --ff-only
+
+          # Contenu identique : pas d'archive (sinon des doublons feraient
+          # sortir de vraies anciennes versions de la fenêtre des 5).
+          if cmp -s /tmp/old_calendrier-japon.json calendrier-japon.json; then
+            echo "Données identiques à la version précédente : pas d'archive."
+            exit 0
+          fi
+
+          # Date de l'ancienne version (JST) ; à défaut, date du jour (JST).
+          old_date=$(cat /tmp/old_date.txt 2>/dev/null || true)
+          if [ -z "$old_date" ]; then
+            old_date=$(TZ='Asia/Tokyo' date +'%d_%m_%y')
+            echo "Date de l'ancienne version inconnue : date du jour utilisée."
+          fi
+          archive="calendrier-japon_${old_date}.json"
+          cp /tmp/old_calendrier-japon.json "$archive"
+          echo "Ancienne version archivée : $archive"
+
+          # Rotation : tri chronologique (YYMMDD), on supprime tout sauf
+          # les 5 plus récentes.
+          ls -1 calendrier-japon_[0-9][0-9]_[0-9][0-9]_[0-9][0-9].json 2>/dev/null \
+            | sed -E 's/^calendrier-japon_([0-9]{2})_([0-9]{2})_([0-9]{2})\.json$/\3\2\1 &/' \
+            | sort \
+            | head -n -5 \
+            | cut -d' ' -f2- \
+            | xargs -r rm -v
+
+          # Commit et push des archives (-A : prend aussi en compte
+          # les archives supprimées par la rotation).
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- 'calendrier-japon_*.json'
+          if git diff --cached --quiet; then
+            echo "Aucun changement d'archive à pousser."
+          else
+            git commit -m "Archivage de l'ancienne version du calendrier ($archive)"
+            git push
+          fi
+
+      # Étape 7 : envoie un mail de statut, que le scraping ait réussi
       # ou échoué (if: always() = s'exécute quel que soit le résultat
       # des étapes précédentes).
       - name: Envoi du mail de statut
@@ -94,6 +199,8 @@ jobs:
           from: Calendrier Japon - GitHub Actions
           body: |
             Résultat de l'exécution : ${{ steps.scrape.outcome }}
+            Sauvegarde de l'ancienne version : ${{ steps.backup.outcome }}
+            Archivage (5 dernières versions) : ${{ steps.archive.outcome }}
 
             Dépôt : ${{ github.repository }}
             Workflow : ${{ github.workflow }}
