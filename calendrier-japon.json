@@ -8,73 +8,6 @@
       "title": "Événements d'octobre 2026 au Japon",
       "days": [
         {
-          "day": 7,
-          "weekday_letter": "M",
-          "date_iso": "2026-10-07",
-          "events": [
-            {
-              "text": "Festival Kunchi à Nagasaki au sanctuaire Suwa",
-              "links": [
-                {
-                  "text": "Kunchi",
-                  "url": "http://nagasaki-kunchi.com/"
-                }
-              ],
-              "type": "multi-day",
-              "is_start": true,
-              "is_end": false,
-              "filtres": [
-                "Festivals"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 8,
-          "weekday_letter": "J",
-          "date_iso": "2026-10-08",
-          "events": []
-        },
-        {
-          "day": 9,
-          "weekday_letter": "V",
-          "date_iso": "2026-10-09",
-          "events": [
-            {
-              "text": "Hachiman Matsuri (édition d'automne du festival de Takayama )",
-              "links": [],
-              "type": "multi-day",
-              "is_start": true,
-              "is_end": false,
-              "filtres": [
-                "Festivals",
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 10,
-          "weekday_letter": "S",
-          "date_iso": "2026-10-10",
-          "events": [
-            {
-              "text": "Jour des bébés au Japon (non férié)",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 11,
-          "weekday_letter": "D",
-          "date_iso": "2026-10-11",
-          "events": []
-        },
-        {
           "day": 12,
           "weekday_letter": "L",
           "date_iso": "2026-10-12",
@@ -7675,8 +7608,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-08 23:59:00",
+        "start": "2026-10-13 00:00:00",
+        "end": "2026-10-13 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7697,8 +7630,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-08 23:59:00",
+        "start": "2026-10-13 00:00:00",
+        "end": "2026-10-13 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9669,12 +9602,12 @@
     {
       "source": "japantravel",
       "id": 71927,
-      "title": "Nagasaki Kunchi Festival 2026",
+      "title": "Nagasaki Kunchi Festival 2027",
       "slug": "nagasaki-kunchi-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-07 00:00:00",
-        "end": "2026-10-09 00:00:00",
+        "start": "2027-10-07 00:00:00",
+        "end": "2027-10-09 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -16569,12 +16502,12 @@
     {
       "source": "japantravel",
       "id": 70123,
-      "title": "Family Rail Fair 2026",
+      "title": "Family Rail Fair 2027",
       "slug": "family-rail-fair",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-09 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-09 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -17945,12 +17878,12 @@
     {
       "source": "japantravel",
       "id": 69923,
-      "title": "Asakusa Awa Odori 2026",
+      "title": "Asakusa Awa Odori 2027",
       "slug": "asakusa-awa-odori",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-11 16:00:00",
-        "end": "2026-10-11 18:30:00",
+        "start": "2027-10-11 16:00:00",
+        "end": "2027-10-11 18:30:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -19749,12 +19682,12 @@
     {
       "source": "japantravel",
       "id": 69561,
-      "title": "Yushima Cat Festival 2026",
+      "title": "Yushima Cat Festival 2027",
       "slug": "yushima-cat-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-09 00:00:00",
+        "start": "2027-09-12 00:00:00",
+        "end": "2027-10-09 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -23181,12 +23114,12 @@
     {
       "source": "japantravel",
       "id": 67332,
-      "title": "Step-Up Challenge 2026",
+      "title": "Step-Up Challenge 2027",
       "slug": "step-up-challenge",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-09-09 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -25079,12 +25012,12 @@
     {
       "source": "japantravel",
       "id": 65621,
-      "title": "Higashi Sanbin Flower Valley Cosmos Festival 2026",
+      "title": "Higashi Sanbin Flower Valley Cosmos Festival 2027",
       "slug": "higashi-sanbin-flower-valley-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-09 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-09 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -25173,12 +25106,12 @@
     {
       "source": "japantravel",
       "id": 65575,
-      "title": "Sunflowers at Hokkaido's Palette Hill 2026",
+      "title": "Sunflowers at Hokkaido's Palette Hill 2027",
       "slug": "sunflowers-at-hokkaido-s-palette-hill",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -35691,12 +35624,12 @@
     {
       "source": "japantravel",
       "id": 53947,
-      "title": "Michinoku Yosakoi 2026",
+      "title": "Michinoku Yosakoi 2027",
       "slug": "michinoku-yosakoi-53948",
       "lang": "vi",
       "event_date": {
-        "start": "2026-10-10 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-10 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -35713,12 +35646,12 @@
     {
       "source": "japantravel",
       "id": 53931,
-      "title": "메구로의 산마 축제 2026",
+      "title": "메구로의 산마 축제 2027",
       "slug": "메구로의-산마-축제",
       "lang": "ko",
       "event_date": {
-        "start": "2026-10-11 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-11 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -36715,12 +36648,12 @@
     {
       "source": "japantravel",
       "id": 51918,
-      "title": "타카야마 가을 축제 2026",
+      "title": "타카야마 가을 축제 2027",
       "slug": "타카야마-가을-축제",
       "lang": "ko",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -37317,12 +37250,12 @@
     {
       "source": "japantravel",
       "id": 50199,
-      "title": "Naha Tug-of-War Festival 2026",
+      "title": "Naha Tug-of-War Festival 2027",
       "slug": "naha-tug-of-war-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-11 11:30:00",
-        "end": "2026-10-11 17:00:00",
+        "start": "2027-10-11 11:30:00",
+        "end": "2027-10-11 17:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -39369,12 +39302,12 @@
     {
       "source": "japantravel",
       "id": 45947,
-      "title": "เทศกาล Nagasaki Kunchi 2026",
+      "title": "เทศกาล Nagasaki Kunchi 2027",
       "slug": "เทศกาล-nagasaki-kunchi",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-07 00:00:00",
-        "end": "2026-10-09 00:00:00",
+        "start": "2027-10-07 00:00:00",
+        "end": "2027-10-09 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -43945,12 +43878,12 @@
     {
       "source": "japantravel",
       "id": 41718,
-      "title": "เทศกาล Saijo Sake Matsuri 2026",
+      "title": "เทศกาล Saijo Sake Matsuri 2027",
       "slug": "เทศกาล-saijo-sake-matsuri",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-05 00:00:00",
-        "end": "2026-10-07 00:00:00",
+        "start": "2027-10-05 00:00:00",
+        "end": "2027-10-07 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -44307,12 +44240,12 @@
     {
       "source": "japantravel",
       "id": 41679,
-      "title": "เทศกาล Kanuma Buttuke Aki Matsuri  2026",
+      "title": "เทศกาล Kanuma Buttuke Aki Matsuri  2027",
       "slug": "เทศกาล-kanuma-buttuke-aki-matsuri",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-09 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-09 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -48999,12 +48932,12 @@
     {
       "source": "japantravel",
       "id": 35030,
-      "title": "Lễ hội mùa thu Takayama 2026",
+      "title": "Lễ hội mùa thu Takayama 2027",
       "slug": "le-hoi-mua-thu-takayama",
       "lang": "vi",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51451,12 +51384,12 @@
     {
       "source": "japantravel",
       "id": 32634,
-      "title": "เทศกาลฤดูใบไม้ร่วงทาคายามะ  2026",
+      "title": "เทศกาลฤดูใบไม้ร่วงทาคายามะ  2027",
       "slug": "ethskaalrduuaibaimrwngthaakhaayaama",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51723,12 +51656,12 @@
     {
       "source": "japantravel",
       "id": 32078,
-      "title": "Осенний фестиваль Такаяма 2026",
+      "title": "Осенний фестиваль Такаяма 2027",
       "slug": "osennii-festival-takaiama",
       "lang": "ru",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51745,12 +51678,12 @@
     {
       "source": "japantravel",
       "id": 32076,
-      "title": "Festival Musim Gugur Takayama 2026",
+      "title": "Festival Musim Gugur Takayama 2027",
       "slug": "festival-musim-gugur-takayama",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -52005,12 +51938,12 @@
     {
       "source": "japantravel",
       "id": 31945,
-      "title": "Takayama Autumn Festival 2026",
+      "title": "Takayama Autumn Festival 2027",
       "slug": "takayama-autumn-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-08 00:00:00",
-        "end": "2026-10-10 00:00:00",
+        "start": "2027-10-08 00:00:00",
+        "end": "2027-10-10 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -57670,12 +57603,12 @@
     {
       "source": "japantravel",
       "id": 16087,
-      "title": "Michinoku Yosakoi 2026",
+      "title": "Michinoku Yosakoi 2027",
       "slug": "michinoku-yosakoi-16088",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-10 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-10 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -57716,12 +57649,12 @@
     {
       "source": "japantravel",
       "id": 16057,
-      "title": "Michinoku Yosakoi 2026",
+      "title": "Michinoku Yosakoi 2027",
       "slug": "michinoku-yosakoi",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-10 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-10 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -59900,12 +59833,12 @@
     {
       "source": "japantravel",
       "id": 8791,
-      "title": "เทศกาลปิ้งปลาแม็คเคอเรลของโตเกียว 2026",
+      "title": "เทศกาลปิ้งปลาแม็คเคอเรลของโตเกียว 2027",
       "slug": "เทศกาลปิ้งปลาแม็คเคอเรลของโตเกียว",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-11 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-11 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -60940,12 +60873,12 @@
     {
       "source": "japantravel",
       "id": 4337,
-      "title": "目黒のさんま祭り 2026",
+      "title": "目黒のさんま祭り 2027",
       "slug": "目黒のさんま",
       "lang": "ja",
       "event_date": {
-        "start": "2026-10-11 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-11 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
@@ -61634,12 +61567,12 @@
     {
       "source": "japantravel",
       "id": 2709,
-      "title": "Meguro Sanma Festival 2026",
+      "title": "Meguro Sanma Festival 2027",
       "slug": "meguro-sanma-matsuri",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-11 00:00:00",
-        "end": "2026-10-11 00:00:00",
+        "start": "2027-10-11 00:00:00",
+        "end": "2027-10-11 00:00:00",
         "unknown_start_time": true,
         "unknown_end_time": true
       },
