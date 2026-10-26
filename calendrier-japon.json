@@ -8,66 +8,6 @@
       "title": "Événements d'octobre 2026 au Japon",
       "days": [
         {
-          "day": 19,
-          "weekday_letter": "L",
-          "date_iso": "2026-10-19",
-          "events": []
-        },
-        {
-          "day": 20,
-          "weekday_letter": "M",
-          "date_iso": "2026-10-20",
-          "events": []
-        },
-        {
-          "day": 21,
-          "weekday_letter": "M",
-          "date_iso": "2026-10-21",
-          "events": []
-        },
-        {
-          "day": 22,
-          "weekday_letter": "J",
-          "date_iso": "2026-10-22",
-          "events": [
-            {
-              "text": "Festival Jidai Matsuri à Kyoto : du Palais Impérial au sanctuaire Heian-Jingu",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Festivals"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 23,
-          "weekday_letter": "V",
-          "date_iso": "2026-10-23",
-          "events": []
-        },
-        {
-          "day": 24,
-          "weekday_letter": "S",
-          "date_iso": "2026-10-24",
-          "events": []
-        },
-        {
-          "day": 25,
-          "weekday_letter": "D",
-          "date_iso": "2026-10-25",
-          "events": [
-            {
-              "text": "Grand exercice anti-incendie à Shirakawa-go",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Festivals"
-              ]
-            }
-          ]
-        },
-        {
           "day": 26,
           "weekday_letter": "L",
           "date_iso": "2026-10-26",
@@ -7628,8 +7568,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-20 23:59:00",
+        "start": "2026-10-27 00:00:00",
+        "end": "2026-10-27 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -7650,8 +7590,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-20 23:59:00",
+        "start": "2026-10-27 00:00:00",
+        "end": "2026-10-27 23:59:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9190,8 +9130,8 @@
       "slug": "doge-day",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-02 02:00:00",
-        "end": "2026-11-02 08:00:00",
+        "start": "2026-11-02 11:00:00",
+        "end": "2026-11-02 17:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9230,12 +9170,12 @@
     {
       "source": "japantravel",
       "id": 72000,
-      "title": "Kinoshita Group Japan Open 2026",
+      "title": "Kinoshita Group Japan Open 2027",
       "slug": "kinoshita-group-japan-open",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-12 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-12 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -9552,12 +9492,12 @@
     {
       "source": "japantravel",
       "id": 71947,
-      "title": "Autumn in Takaoka: City of Crafts 2026",
+      "title": "Autumn in Takaoka: City of Crafts 2027",
       "slug": "autumn-in-takaoka-city-of-crafts",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -10348,12 +10288,12 @@
     {
       "source": "japantravel",
       "id": 71793,
-      "title": "Tokyo Bay Grand Fireworks Festival 2026",
+      "title": "Tokyo Bay Grand Fireworks Festival 2027",
       "slug": "tokyo-bay-grand-fireworks-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-23 00:00:00",
-        "end": "2026-10-24 00:00:00",
+        "start": "2027-10-23 00:00:00",
+        "end": "2027-10-24 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -16174,12 +16114,12 @@
     {
       "source": "japantravel",
       "id": 70204,
-      "title": "Sumida Street Jazz Festival 2026",
+      "title": "Sumida Street Jazz Festival 2027",
       "slug": "sumida-street-jazz-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -16292,12 +16232,12 @@
     {
       "source": "japantravel",
       "id": 70184,
-      "title": "Tamba Yaki Pottery Festival 2026",
+      "title": "Tamba Yaki Pottery Festival 2027",
       "slug": "tamba-yaki-pottery-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-09 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-09 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -20610,12 +20550,12 @@
     {
       "source": "japantravel",
       "id": 69317,
-      "title": "Ushimado Olive Harvest Festival 2026",
+      "title": "Ushimado Olive Harvest Festival 2027",
       "slug": "ushimado-olive-harvest-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-25 00:00:00",
-        "end": "2026-10-25 00:00:00",
+        "start": "2027-10-25 00:00:00",
+        "end": "2027-10-25 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -22749,6 +22689,30 @@
     },
     {
       "source": "japantravel",
+      "id": 67896,
+      "title": "World Uchinanchu Festival 2027",
+      "slug": "world-uchinanchu-festival",
+      "lang": "en",
+      "event_date": {
+        "start": "2027-10-26 00:00:00",
+        "end": "2027-11-03 00:00:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/okinawa/world-uchinanchu-festival/67896",
+      "filtres": [
+        "Festivals"
+      ]
+    },
+    {
+      "source": "japantravel",
       "id": 67824,
       "title": "Four Seasons Cherry Blossom Festival 2026",
       "slug": "four-seasons-cherry-blossom-festival",
@@ -24866,12 +24830,12 @@
     {
       "source": "japantravel",
       "id": 65681,
-      "title": "Koizumi Cosmos Festival 2026",
+      "title": "Koizumi Cosmos Festival 2027",
       "slug": "koizumi-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-19 00:00:00",
-        "end": "2026-10-20 00:00:00",
+        "start": "2027-10-19 00:00:00",
+        "end": "2027-10-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -24962,12 +24926,12 @@
     {
       "source": "japantravel",
       "id": 65671,
-      "title": "Kiyozumi Cosmos Festival 2026",
+      "title": "Kiyozumi Cosmos Festival 2027",
       "slug": "kiyozumi-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-10 00:00:00",
-        "end": "2026-10-24 00:00:00",
+        "start": "2027-10-10 00:00:00",
+        "end": "2027-10-24 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -25622,12 +25586,12 @@
     {
       "source": "japantravel",
       "id": 65522,
-      "title": "Ikoma Plateau Cosmos Festival 2026",
+      "title": "Ikoma Plateau Cosmos Festival 2027",
       "slug": "ikoma-plateau-cosmos-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-01 00:00:00",
-        "end": "2026-10-22 00:00:00",
+        "start": "2027-09-22 00:00:00",
+        "end": "2027-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -32246,12 +32210,12 @@
     {
       "source": "japantravel",
       "id": 58021,
-      "title": "Fureai Matsuri at Haginaka, Haneda 2026",
+      "title": "Fureai Matsuri at Haginaka, Haneda 2027",
       "slug": "fureai-matsuri-at-haginaka-haneda",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-20 00:00:00",
+        "start": "2027-10-20 00:00:00",
+        "end": "2027-10-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -36955,6 +36919,28 @@
     },
     {
       "source": "japantravel",
+      "id": 51079,
+      "title": "Pháo hoa bên dòng sông Ashida ở Fukuyama 2027",
+      "slug": "pháo-hoa-bên-dòng-sông-ashida-ở-fukuyama",
+      "lang": "vi",
+      "event_date": {
+        "start": "2027-08-15 19:30:00",
+        "end": "2027-08-15 20:30:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": false,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/hiroshima/pháo-hoa-bên-dòng-sông-ashida-ở-fukuyama/51079",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
       "id": 51078,
       "title": "Tokyo Farmers and Kids Festa 2027",
       "slug": "farmers-and-kids-festa",
@@ -41375,7 +41361,7 @@
       "source": "japantravel",
       "id": 43976,
       "title": "Awa Odori in Tokushima 2027",
-      "slug": "awa-odori-in-tokushima",
+      "slug": "awa-odori",
       "lang": "en",
       "event_date": {
         "start": "2027-08-12 00:00:00",
@@ -41390,7 +41376,7 @@
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/tokushima/awa-odori-in-tokushima/43976",
+      "url": "https://en.japantravel.com/tokushima/awa-odori/43976",
       "filtres": [
         "Festivals"
       ]
@@ -43722,12 +43708,12 @@
     {
       "source": "japantravel",
       "id": 41758,
-      "title": "เทศกาล All Japan Giant Rabbit  2026",
+      "title": "เทศกาล All Japan Giant Rabbit  2027",
       "slug": "เทศกาล-all-japan-giant-rabbit",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-21 00:00:00",
+        "start": "2027-10-20 00:00:00",
+        "end": "2027-10-21 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -50660,8 +50646,8 @@
       "slug": "yebisu",
       "lang": "th",
       "event_date": {
-        "start": "2026-11-08 00:00:00",
-        "end": "2026-12-25 00:00:00",
+        "start": "2026-11-14 16:00:00",
+        "end": "2026-12-25 23:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51046,8 +51032,8 @@
       "slug": "illuminations-de-noel-ebisu",
       "lang": "fr",
       "event_date": {
-        "start": "2026-11-08 00:00:00",
-        "end": "2026-12-25 00:00:00",
+        "start": "2026-11-14 16:00:00",
+        "end": "2026-12-25 23:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51068,8 +51054,8 @@
       "slug": "yebisu-christmas-illumination",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-08 00:00:00",
-        "end": "2026-12-25 00:00:00",
+        "start": "2026-11-14 16:00:00",
+        "end": "2026-12-25 23:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51198,12 +51184,12 @@
     {
       "source": "japantravel",
       "id": 33095,
-      "title": "เทศกาลแห่งไฟที่คุระมะ 2026",
+      "title": "เทศกาลแห่งไฟที่คุระมะ 2027",
       "slug": "เทศกาลแห่งไฟที่คุระมะ",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-22 00:00:00",
-        "end": "2026-10-22 00:00:00",
+        "start": "2027-10-22 00:00:00",
+        "end": "2027-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -51952,8 +51938,8 @@
     {
       "source": "japantravel",
       "id": 31991,
-      "title": "Hachioji Gingko Festival 2026",
-      "slug": "hachioji-gingko-festival",
+      "title": "Hachioji Ginkgo Festival 2026",
+      "slug": "hachioji-ginkgo-festival",
       "lang": "en",
       "event_date": {
         "start": "2026-11-14 00:00:00",
@@ -51968,7 +51954,7 @@
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/tokyo/hachioji-gingko-festival/31991",
+      "url": "https://en.japantravel.com/tokyo/hachioji-ginkgo-festival/31991",
       "filtres": [
         "Festivals"
       ]
@@ -52812,7 +52798,7 @@
       "source": "japantravel",
       "id": 29790,
       "title": "Sanja Matsuri 2027",
-      "slug": "sanja-matsuri-1",
+      "slug": "sanja-matsuri",
       "lang": "en",
       "event_date": {
         "start": "2027-05-14 00:00:00",
@@ -52827,7 +52813,7 @@
         "code": "culture",
         "name": "Culture"
       },
-      "url": "https://en.japantravel.com/tokyo/sanja-matsuri-1/29790",
+      "url": "https://en.japantravel.com/tokyo/sanja-matsuri/29790",
       "filtres": [
         "Festivals"
       ]
@@ -54519,12 +54505,12 @@
     {
       "source": "japantravel",
       "id": 25075,
-      "title": "Festival Api di Kuil Kurama 2026",
+      "title": "Festival Api di Kuil Kurama 2027",
       "slug": "festival-api-di-kuil-kurama",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-22 00:00:00",
-        "end": "2026-10-22 00:00:00",
+        "start": "2027-10-22 00:00:00",
+        "end": "2027-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -54591,12 +54577,12 @@
     {
       "source": "japantravel",
       "id": 25051,
-      "title": "Festival du Feu au Temple Kurama 2026",
+      "title": "Festival du Feu au Temple Kurama 2027",
       "slug": "festival-feu-temple-kurama",
       "lang": "fr",
       "event_date": {
-        "start": "2026-10-22 00:00:00",
-        "end": "2026-10-22 00:00:00",
+        "start": "2027-10-22 00:00:00",
+        "end": "2027-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -54959,12 +54945,12 @@
     {
       "source": "japantravel",
       "id": 24248,
-      "title": "Kurama Fire Festival 2026",
+      "title": "Kurama Fire Festival 2027",
       "slug": "fire-festival-kurama-temple",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-22 00:00:00",
-        "end": "2026-10-22 00:00:00",
+        "start": "2027-10-22 00:00:00",
+        "end": "2027-10-22 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -55099,12 +55085,12 @@
     {
       "source": "japantravel",
       "id": 23960,
-      "title": "Firewalking Festival Hakkai-san  2026",
+      "title": "Firewalking Festival Hakkai-san  2027",
       "slug": "festival-berjalan-di-atas-bara-hakkai-san",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-20 00:00:00",
+        "start": "2027-10-20 00:00:00",
+        "end": "2027-10-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -55147,12 +55133,12 @@
     {
       "source": "japantravel",
       "id": 23927,
-      "title": "Hakkai-san Firewalking Festival 2026",
+      "title": "Hakkai-san Firewalking Festival 2027",
       "slug": "hakkai-san-firewalking-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-20 00:00:00",
+        "start": "2027-10-20 00:00:00",
+        "end": "2027-10-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -55785,12 +55771,12 @@
     {
       "source": "japantravel",
       "id": 22322,
-      "title": "เทศกาลคุราชิกิ 2026",
+      "title": "เทศกาลคุราชิกิ 2027",
       "slug": "เทศกาลคุราชิกิ",
       "lang": "th",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -55807,12 +55793,12 @@
     {
       "source": "japantravel",
       "id": 22315,
-      "title": "Kurashiki Autumn Festival 2026",
+      "title": "Kurashiki Autumn Festival 2027",
       "slug": "kurashiki-autumn-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -56551,12 +56537,12 @@
     {
       "source": "japantravel",
       "id": 20446,
-      "title": "مهرجان ناجويا 2026",
+      "title": "مهرجان ناجويا 2027",
       "slug": "مهرجان-ناجويا",
       "lang": "ar",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -57645,12 +57631,12 @@
     {
       "source": "japantravel",
       "id": 16299,
-      "title": "Festival Persahabatan Indonesia-Jepang 2026",
+      "title": "Festival Persahabatan Indonesia-Jepang 2027",
       "slug": "festival-persahabatan-indonesia-jepang",
       "lang": "id",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -57691,12 +57677,12 @@
     {
       "source": "japantravel",
       "id": 16187,
-      "title": "Nihonbashi Ebisu-ko Bettara-ichi 2026",
+      "title": "Nihonbashi Ebisu-ko Bettara-ichi 2027",
       "slug": "nihonbashi-bettara-ichi",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-19 00:00:00",
-        "end": "2026-10-20 00:00:00",
+        "start": "2027-10-19 00:00:00",
+        "end": "2027-10-20 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -58161,6 +58147,30 @@
       },
       "url": "https://en.japantravel.com/chiba/งานเทศกาลทิวลิปแห่งเมืองซากุระ-ชิบะ/14573",
       "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 14571,
+      "title": "Fukuyama Ashida River Fireworks Festival 2027",
+      "slug": "fukuyama-ashida-river-fireworks",
+      "lang": "en",
+      "event_date": {
+        "start": "2027-08-15 19:30:00",
+        "end": "2027-08-15 20:30:00",
+        "unknown_start_time": false,
+        "unknown_end_time": false
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
+      },
+      "url": "https://en.japantravel.com/hiroshima/fukuyama-ashida-river-fireworks/14571",
+      "filtres": [
+        "Festivals"
+      ]
     },
     {
       "source": "japantravel",
@@ -60187,12 +60197,12 @@
     {
       "source": "japantravel",
       "id": 7800,
-      "title": "Kobe Fireworks Festival 2026",
+      "title": "Kobe Fireworks Festival 2027",
       "slug": "kobe-fireworks-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-20 00:00:00",
-        "end": "2026-10-24 00:00:00",
+        "start": "2027-10-20 00:00:00",
+        "end": "2027-10-24 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -60489,12 +60499,12 @@
     {
       "source": "japantravel",
       "id": 6060,
-      "title": "Tsuruse Yosakoi Festival 2026",
+      "title": "Tsuruse Yosakoi Festival 2027",
       "slug": "tsuruse-yosakoi-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-18 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-18 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -60703,12 +60713,12 @@
     {
       "source": "japantravel",
       "id": 5581,
-      "title": "Japan-Indonesia Friendship Festival 2026",
+      "title": "Japan-Indonesia Friendship Festival 2027",
       "slug": "japan-indonesia-friendship-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -61791,12 +61801,12 @@
     {
       "source": "japantravel",
       "id": 2640,
-      "title": "Nagoya Festival 2026",
+      "title": "Nagoya Festival 2027",
       "slug": "nagoya-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-17 00:00:00",
-        "end": "2026-10-19 00:00:00",
+        "start": "2027-10-17 00:00:00",
+        "end": "2027-10-19 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
@@ -62789,12 +62799,12 @@
     {
       "source": "japantravel",
       "id": 1155,
-      "title": "Ishidan Marathon at Mount Haguro 2026",
+      "title": "Ishidan Marathon at Mount Haguro 2027",
       "slug": "ishidan-marathon-at-mount-haguro",
       "lang": "en",
       "event_date": {
-        "start": "2026-10-21 00:00:00",
-        "end": "2026-10-21 00:00:00",
+        "start": "2027-10-21 00:00:00",
+        "end": "2027-10-21 00:00:00",
         "unknown_start_time": false,
         "unknown_end_time": false
       },
