@@ -8,75 +8,6 @@
       "title": "Événements de novembre 2026 au Japon",
       "days": [
         {
-          "day": 16,
-          "weekday_letter": "L",
-          "date_iso": "2026-11-16",
-          "events": [
-            {
-              "text": "Anniversaire de Shigeru Miyamoto (né en 1952), créateur de Mario et Zelda",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Anniversaire"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 17,
-          "weekday_letter": "M",
-          "date_iso": "2026-11-17",
-          "events": []
-        },
-        {
-          "day": 18,
-          "weekday_letter": "M",
-          "date_iso": "2026-11-18",
-          "events": [
-            {
-              "text": "Date anniversaire de la mise en service de la carte Suica (2001)",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Anniversaire"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 19,
-          "weekday_letter": "J",
-          "date_iso": "2026-11-19",
-          "events": [
-            {
-              "text": "Journée mondiale des toilettes",
-              "links": [],
-              "type": "one-day",
-              "filtres": [
-                "Jour spécial"
-              ]
-            }
-          ]
-        },
-        {
-          "day": 20,
-          "weekday_letter": "V",
-          "date_iso": "2026-11-20",
-          "events": []
-        },
-        {
-          "day": 21,
-          "weekday_letter": "S",
-          "date_iso": "2026-11-21",
-          "events": []
-        },
-        {
-          "day": 22,
-          "weekday_letter": "D",
-          "date_iso": "2026-11-22",
-          "events": []
-        },
-        {
           "day": 23,
           "weekday_letter": "L",
           "date_iso": "2026-11-23",
@@ -6341,6 +6272,50 @@
   "japantravel_events": [
     {
       "source": "japantravel",
+      "id": 72902,
+      "title": "Tokyo Illumilia  2026-2027",
+      "slug": "tokyo-illumilia",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-11-05 16:30:00",
+        "end": "2027-02-14 23:30:00",
+        "unknown_start_time": null,
+        "unknown_end_time": null
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/tokyo/tokyo-illumilia/72902",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
+      "id": 72901,
+      "title": "The Tokyo Ekimachi Chorus Christmas Concert  2026",
+      "slug": "the-tokyo-ekimachi-chorus-christmas-concert",
+      "lang": "en",
+      "event_date": {
+        "start": "2026-12-10 12:00:00",
+        "end": "2026-12-10 19:00:00",
+        "unknown_start_time": null,
+        "unknown_end_time": null
+      },
+      "event_general_price": 0,
+      "event_free": true,
+      "category": {
+        "id": 2,
+        "code": "activity",
+        "name": "Activities"
+      },
+      "url": "https://en.japantravel.com/tokyo/the-tokyo-ekimachi-chorus-christmas-concert/72901",
+      "filtres": []
+    },
+    {
+      "source": "japantravel",
       "id": 72819,
       "title": "Nachi-Biei Fire Festival 2027",
       "slug": "nachi-biei-fire-festival",
@@ -7276,8 +7251,8 @@
       "slug": "-1",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-17 00:00:00",
-        "end": "2026-11-17 23:59:00",
+        "start": "2026-11-24 00:00:00",
+        "end": "2026-11-24 23:59:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -7298,8 +7273,8 @@
       "slug": "gaudi-windows-on-the-future",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-17 00:00:00",
-        "end": "2026-11-17 23:59:00",
+        "start": "2026-11-24 00:00:00",
+        "end": "2026-11-24 23:59:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -7852,7 +7827,7 @@
       "slug": "japan-traditional-crafts-ginza-artisans-street",
       "lang": "en",
       "event_date": {
-        "start": "2027-02-18 00:00:00",
+        "start": "2027-02-17 00:00:00",
         "end": "2027-02-23 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
@@ -8718,12 +8693,12 @@
     {
       "source": "japantravel",
       "id": 72057,
-      "title": "Tea Festival CHAKOBA 2026",
+      "title": "Tea Festival CHAKOBA 2027",
       "slug": "tea-festival-chakoba",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-16 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-16 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -8742,12 +8717,12 @@
     {
       "source": "japantravel",
       "id": 72039,
-      "title": "Hie Shrine Momiji Festival 2026",
+      "title": "Hie Shrine Momiji Festival 2027",
       "slug": "hie-shrine-momiji-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-01 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-01 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -8883,16 +8858,16 @@
       "lang": "en",
       "event_date": {
         "start": "2026-11-01 00:00:00",
-        "end": "2026-12-21 00:00:00",
+        "end": "2026-12-20 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
       "event_general_price": 0,
       "event_free": false,
       "category": {
-        "id": null,
-        "code": null,
-        "name": null
+        "id": 3,
+        "code": "culture",
+        "name": "Culture"
       },
       "url": "https://en.japantravel.com/tokyo/sumida-river-sumi-yume-art-project/71998",
       "filtres": []
@@ -8948,12 +8923,12 @@
     {
       "source": "japantravel",
       "id": 71974,
-      "title": "Art Collaboration Kyoto (ACK) 2026",
+      "title": "Art Collaboration Kyoto (ACK) 2027",
       "slug": "art-collaboration-kyoto-ack",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -9652,12 +9627,12 @@
     {
       "source": "japantravel",
       "id": 71870,
-      "title": "Junkan Festival 2026",
+      "title": "Junkan Festival 2027",
       "slug": "junkan-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-22 00:00:00",
-        "end": "2026-11-22 00:00:00",
+        "start": "2027-11-22 00:00:00",
+        "end": "2027-11-22 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -9908,12 +9883,12 @@
     {
       "source": "japantravel",
       "id": 71796,
-      "title": "Biwako Biennale 2026",
+      "title": "Biwako Biennale 2027",
       "slug": "biwako-biennale",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-01 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-09-19 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -10436,12 +10411,12 @@
     {
       "source": "japantravel",
       "id": 71694,
-      "title": "Kobe Marathon 2026",
+      "title": "Kobe Marathon 2027",
       "slug": "kobe-marathon",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-16 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-16 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -10922,12 +10897,12 @@
     {
       "source": "japantravel",
       "id": 71525,
-      "title": "One Piece Premier Summer 2026",
+      "title": "One Piece Premier Summer 2027",
       "slug": "one-piece-premier-summer",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-01 00:00:00",
-        "end": "2026-11-19 00:00:00",
+        "start": "2027-07-30 00:00:00",
+        "end": "2027-11-19 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -15002,12 +14977,12 @@
     {
       "source": "japantravel",
       "id": 70350,
-      "title": "Gosen Knit Fes 2026",
+      "title": "Gosen Knit Fes 2027",
       "slug": "gosen-knit-fes",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -15048,12 +15023,12 @@
     {
       "source": "japantravel",
       "id": 70342,
-      "title": "Hirosaki Neputa Asakusa Festival 2026",
+      "title": "Hirosaki Neputa Asakusa Festival 2027",
       "slug": "hirosaki-neputa-asakusa-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-13 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-13 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -19968,12 +19943,12 @@
     {
       "source": "japantravel",
       "id": 69387,
-      "title": "Santa Parade Tokyo 2026",
+      "title": "Santa Parade Tokyo 2027",
       "slug": "santa-parade-tokyo",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-16 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-16 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -20078,12 +20053,12 @@
     {
       "source": "japantravel",
       "id": 69329,
-      "title": "Millennium Corridor 2026",
+      "title": "Millennium Corridor 2027",
       "slug": "millennium-corridor",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-01 00:00:00",
-        "end": "2026-11-21 00:00:00",
+        "start": "2027-10-24 00:00:00",
+        "end": "2027-11-21 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -20336,12 +20311,12 @@
     {
       "source": "japantravel",
       "id": 69227,
-      "title": "Czech Festival 2027",
+      "title": "Czech Festival (Czech Christmas Market) 2026",
       "slug": "czech-festival",
       "lang": "en",
       "event_date": {
-        "start": "2027-10-11 00:00:00",
-        "end": "2027-10-12 00:00:00",
+        "start": "2026-12-04 11:00:00",
+        "end": "2026-12-06 20:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -20478,12 +20453,12 @@
     {
       "source": "japantravel",
       "id": 69147,
-      "title": "Fiesta De España 2026",
+      "title": "Fiesta De España 2027",
       "slug": "fiesta-de-espana",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -26818,7 +26793,7 @@
     {
       "source": "japantravel",
       "id": 64622,
-      "title": "Bungu Joshi Haku Stationery Festival 2027",
+      "title": "Bungu Joshi Haku Stationery Festival in Osaka 2027",
       "slug": "bungu-joshi-haku-stationery-festival",
       "lang": "en",
       "event_date": {
@@ -28104,12 +28079,12 @@
     {
       "source": "japantravel",
       "id": 63114,
-      "title": "Il festival degli alberi di gingko di Hacioji  2026",
+      "title": "Il festival degli alberi di gingko di Hacioji  2027",
       "slug": "il-festival-degli-alberi-di-gingko-di-hacioji",
       "lang": "it",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -28128,12 +28103,12 @@
     {
       "source": "japantravel",
       "id": 63111,
-      "title": "Hachioji Gingko Fest 2026",
+      "title": "Hachioji Gingko Fest 2027",
       "slug": "hachioji-gingko-fest",
       "lang": "de",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -29680,12 +29655,12 @@
     {
       "source": "japantravel",
       "id": 60761,
-      "title": "Фестиваль гингко в Хатиодзи 2026",
+      "title": "Фестиваль гингко в Хатиодзи 2027",
       "slug": "фестиваль-гингко-в-хатиодзи",
       "lang": "ru",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -31362,12 +31337,12 @@
     {
       "source": "japantravel",
       "id": 58691,
-      "title": "하치오지 깅코 축제 2026",
+      "title": "하치오지 깅코 축제 2027",
       "slug": "하치오지-깅코-축제",
       "lang": "ko",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -34022,12 +33997,12 @@
     {
       "source": "japantravel",
       "id": 54902,
-      "title": "후쿠오카 그랜드 스모 토너먼트 2026",
+      "title": "후쿠오카 그랜드 스모 토너먼트 2027",
       "slug": "hukuoka-geuraendeu-seumo-toneomeonteu",
       "lang": "ko",
       "event_date": {
-        "start": "2026-11-07 00:00:00",
-        "end": "2026-11-22 00:00:00",
+        "start": "2027-11-07 00:00:00",
+        "end": "2027-11-22 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -34954,12 +34929,12 @@
     {
       "source": "japantravel",
       "id": 54024,
-      "title": "토쿠시마 요카이 축제 2018 2026",
+      "title": "토쿠시마 요카이 축제 2018 2027",
       "slug": "2018-54025",
       "lang": "ko",
       "event_date": {
-        "start": "2026-11-17 00:00:00",
-        "end": "2026-11-17 00:00:00",
+        "start": "2027-11-17 00:00:00",
+        "end": "2027-11-17 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -36646,12 +36621,12 @@
     {
       "source": "japantravel",
       "id": 50490,
-      "title": "Tokushima Yokai Festival 2026",
+      "title": "Tokushima Yokai Festival 2027",
       "slug": "yokai-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-17 00:00:00",
-        "end": "2026-11-17 00:00:00",
+        "start": "2027-11-17 00:00:00",
+        "end": "2027-11-17 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -36872,12 +36847,12 @@
     {
       "source": "japantravel",
       "id": 50168,
-      "title": "Giải Sumo Fukuoka mở rộng 2026",
+      "title": "Giải Sumo Fukuoka mở rộng 2027",
       "slug": "giai-sumo-fukuoka-mo-rong",
       "lang": "vi",
       "event_date": {
-        "start": "2026-11-07 00:00:00",
-        "end": "2026-11-22 00:00:00",
+        "start": "2027-11-07 00:00:00",
+        "end": "2027-11-22 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -36916,12 +36891,12 @@
     {
       "source": "japantravel",
       "id": 49956,
-      "title": "November Grand Sumo Tournament (Fukuoka) 2026",
+      "title": "November Grand Sumo Tournament (Fukuoka) 2027",
       "slug": "november-grand-sumo-tournament-fukuoka",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-07 00:00:00",
-        "end": "2026-11-22 00:00:00",
+        "start": "2027-11-07 00:00:00",
+        "end": "2027-11-22 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -45324,12 +45299,12 @@
     {
       "source": "japantravel",
       "id": 41052,
-      "title": "Festival Gingko Hachioji 2026",
+      "title": "Festival Gingko Hachioji 2027",
       "slug": "festival-gingko-hachioji-41053",
       "lang": "id",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -45506,12 +45481,12 @@
     {
       "source": "japantravel",
       "id": 40642,
-      "title": "Lễ hội Hachioji Gingko 2026",
+      "title": "Lễ hội Hachioji Gingko 2027",
       "slug": "le-hoi-hachioji-gingko",
       "lang": "vi",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -48828,12 +48803,12 @@
     {
       "source": "japantravel",
       "id": 34784,
-      "title": "เทศกาลกิงโกะ ฮะชิโอะจิ 2026",
+      "title": "เทศกาลกิงโกะ ฮะชิโอะจิ 2027",
       "slug": "ethskaalkingoka-hachioacchi",
       "lang": "th",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -51464,12 +51439,12 @@
     {
       "source": "japantravel",
       "id": 31991,
-      "title": "Hachioji Ginkgo Festival 2026",
+      "title": "Hachioji Ginkgo Festival 2027",
       "slug": "hachioji-ginkgo-festival",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-14 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-14 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
@@ -60727,12 +60702,12 @@
     {
       "source": "japantravel",
       "id": 3882,
-      "title": "Design Festa (Autumn) 2026",
+      "title": "Design Festa (Autumn) 2027",
       "slug": "design-festa",
       "lang": "en",
       "event_date": {
-        "start": "2026-11-15 00:00:00",
-        "end": "2026-11-16 00:00:00",
+        "start": "2027-11-15 00:00:00",
+        "end": "2027-11-16 00:00:00",
         "unknown_start_time": null,
         "unknown_end_time": null
       },
